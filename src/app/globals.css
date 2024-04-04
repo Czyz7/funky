@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .hero-image {
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-image {
+    margin-top: 50px;
+    margin-left: 45px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .hero-image {
+    margin-top: 50px;
+    margin-left: 75px;
+  }
+}

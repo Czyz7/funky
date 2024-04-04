@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Your Web Design Co.</title>
+        <title>Accessible Web Designs</title>
         {/* ... other meta tags */}
       </Head>
       <Navigation />
