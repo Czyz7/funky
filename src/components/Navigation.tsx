@@ -40,7 +40,7 @@ const Navigation = () => {
                             className={`absolute top-full left-0 bg-slate-700 bg-opacity-75 shadow-md rounded-md p-2 hidden group-hover:block transition-all ${isServicesDropdownOpen ? 'opacity-100' : 'opacity-100'
                                 }`}
                         >
-                            <Link href="/services/webDesign">
+                            <Link href="/services/develop">
                                 {/* Styling directly on the link, or use a plain div */}
                                 <div className="block px-4 py-2 hover:bg-gray-700">Web Design</div>
                             </Link>
