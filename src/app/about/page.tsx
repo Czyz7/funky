@@ -1,3 +1,4 @@
+import Navigation from '@/components/Navigation';
 import Head from 'next/head';
 
 const About = () => {
@@ -7,6 +8,7 @@ const About = () => {
                 <title>About Us | Accessible Web Designs</title>
                 <meta name="description" content="Learn more about Accessible Web Designs and our mission to make the web accessible to everyone." />
             </Head>
+            <Navigation />
             <main>
                 <h1>About Us</h1>
                 <p>
