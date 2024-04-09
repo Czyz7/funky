@@ -15,11 +15,7 @@ const Develop = () => {
                 <p className="text-lg">
                     I offer a range of coding services, including web development, mobile development, and data science. I have experience working with a variety of technologies, including React, Next.js, Node.js, HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Python, and Git.
                 </p>
-                <ul className="list-disc pl-4">
-                    <Link href="/services/web-development">Web development</Link>
-                    <Link href="/services/mobile-development">Mobile development</Link>
-                    <Link href="/services/data-science">Data science</Link>
-                </ul>
+
             </div>
         </Fragment>
     );

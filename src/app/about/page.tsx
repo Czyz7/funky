@@ -1,4 +1,5 @@
 import Navigation from '@/components/Navigation';
+import Block from '@/components/block';
 import Head from 'next/head';
 
 const About = () => {
@@ -9,7 +10,8 @@ const About = () => {
                 <meta name="description" content="Learn more about Accessible Web Designs and our mission to make the web accessible to everyone." />
             </Head>
             <Navigation />
-            <main>
+            <Block />
+            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <h1>About Us</h1>
                 <p>
                     Accessible Web Designs is a web design and development company that specializes in creating accessible websites. We believe that everyone deserves to have access to the web, regardless of their abilities.

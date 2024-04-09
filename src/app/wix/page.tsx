@@ -2,7 +2,7 @@ import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 
-const Faq = () => {
+const Wix = () => {
     return (
         <>
             <Head>
@@ -15,11 +15,11 @@ const Faq = () => {
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <h1>SEO Page</h1>
                 <p>
-                    This is a filler page for the Faq page.
+                    This is a filler page for the Wix page.
                 </p>
             </main>
         </>
     );
 };
 
-export default Faq;
+export default Wix;
