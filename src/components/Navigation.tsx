@@ -42,15 +42,15 @@ const Navigation = () => {
                         >
                             <Link href="/coding">
                                 {/* Styling directly on the link, or use a plain div */}
-                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Web Design</div>
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Design</div>
                             </Link>
 
                             <Link href="/manage">
-                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Site Management</div>
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Management</div>
                             </Link>
 
                             <Link href="/redesign">
-                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Site Redesign</div>
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Redesign</div>
                             </Link>
 
                             <Link href="/blogpost">
@@ -59,6 +59,12 @@ const Navigation = () => {
 
                             <Link href="/seo">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">SEO</div>
+                            </Link>
+                            <Link href="/accessibility">
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Accessibility</div>
+                            </Link>
+                            <Link href="/consult">
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Consulting</div>
                             </Link>
 
                             {/* ... Add more service links here */}
