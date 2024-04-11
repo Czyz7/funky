@@ -1,9 +1,9 @@
-import React from "react";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
+import HeroServe from "@/components/HeroServ";
 
 const Offer = () => {
     return (
@@ -14,6 +14,7 @@ const Offer = () => {
             </Head>
             <Navigation />
             <Block />
+            <HeroServe />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
                     <h1 className="text-3xl font-bold">All Services</h1>

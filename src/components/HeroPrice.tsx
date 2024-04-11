@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const HeroSection = () => {
+const HeroPrice = () => {
     return (
         <section className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20" >
             <div className="container mx-auto px-4">
@@ -31,7 +31,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/laptop.png" alt="Hero image" width={512} height={512} className="hero-image" />
+                        <Image src="/laptop.png" alt="Hero price" width={512} height={512} className="hero-price" />
                     </div>
                 </div>
             </div>
@@ -39,4 +39,4 @@ const HeroSection = () => {
     );
 };
 
-export default HeroSection;
+export default HeroPrice;

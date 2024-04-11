@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import ConsultServ from '@/components/ConsultServ';
 import HeroConsult from '@/components/HeroConsult';
 
+
 const Consult = () => {
     return (
-        <>
+        <Fragment>
             <Head>
                 <title>Consulting Services | Accessible Web Designs</title>
                 <meta name="description" content="Blah Blah" />
@@ -23,56 +24,58 @@ const Consult = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
                         <ConsultServ
-                            tier="Tier 1: Foundational Consultation"
-                            focus="Introductory assessment and strategic guidance"
+                            tier="SEO Consultation"
+                            focus="Improve your website's visibility and ranking in search results."
                             includes={[
-                                'Accessibility audit (basic): Review of common WCAG guidelines and key issues.',
-                                'SEO assessment (basic): High-level analysis of current visibility and optimization opportunities.',
-                                'Website performance check: Basic speed and usability testing.',
-                                '1-2 hour strategy session: Discuss findings, priorities, and potential solutions.',
+                                'Keyword research and analysis',
+                                'On-page and off-page optimization',
+                                'Content creation and optimization',
+                                'Technical SEO audit and implementation',
+                                'Monthly reporting and analysis',
                             ]}
+
                             idealFor={[
-                                'Businesses unsure about their website\'s health',
-                                'Those wanting an affordable start to improving accessibility and SEO',
-                                'Clients seeking a roadmap for further improvements.',
+                                'Businesses looking to increase their online visibility',
+                                'Those wanting to improve their website\'s ranking in search results',
+                                'Clients seeking to drive more traffic to their website',
                             ]}
                         />
                         <ConsultServ
-                            tier="Tier 2: Comprehensive Analysis"
-                            focus="In-depth evaluation and optimization recommendations"
+                            tier="Accessibility Consultation"
+                            focus="Make your website accessible to everyone, regardless of their abilities."
                             includes={[
-                                'Everything in Tier 1',
-                                'Full website accessibility audit: Detailed review of all pages and elements for WCAG compliance.',
-                                'Advanced SEO analysis: Comprehensive keyword research, competitor analysis, and optimization strategy.',
-                                'Website performance optimization: In-depth analysis and recommendations for improving speed and usability.',
-                                '2-3 hour strategy session: Detailed discussion of findings, recommendations, and implementation plan.',
+                                'Website accessibility audit',
+                                'WCAG compliance remediation',
+                                'Assistive technology testing',
+                                'Accessibility training and support',
+                                'Ongoing monitoring and maintenance',
                             ]}
                             idealFor={[
-                                'Businesses serious about improving their website\'s accessibility and SEO',
-                                'Those seeking a comprehensive understanding of their website\'s strengths and weaknesses',
-                                'Clients wanting a roadmap for significant improvements.',
+                                'Businesses required to comply with accessibility regulations',
+                                'Those wanting to make their website more inclusive and user-friendly',
+                                'Clients seeking to improve the user experience for all visitors',
                             ]}
                         />
                         <ConsultServ
-                            tier="Tier 3: Custom Solutions"
-                            focus="Tailored solutions for complex needs"
+                            tier="Website Development Consultation"
+                            focus="Create a custom website that meets your specific needs and goals."
                             includes={[
-                                'Everything in Tier 1 & 2',
-                                'Custom accessibility solutions: Development of custom solutions to address specific accessibility challenges.',
-                                'Advanced SEO strategy: Development and implementation of a comprehensive SEO strategy tailored to your specific goals.',
-                                'Website performance engineering: In-depth performance optimization and implementation of advanced techniques.',
-                                'Ongoing support and monitoring: Regular check-ins and support to ensure ongoing success.',
+                                'Website design and development',
+                                'Content creation and management',
+                                'E-commerce integration',
+                                'Website maintenance and support',
+                                'Ongoing consultation and optimization',
                             ]}
                             idealFor={[
-                                'Businesses with complex accessibility or SEO requirements',
-                                'Those seeking a fully customized solution to meet their specific needs',
-                                'Clients wanting a long-term partnership for ongoing support and improvement.',
+                                'Businesses needing a new website or a redesign of their existing website',
+                                'Those wanting a website that is tailored to their specific industry and target audience',
+                                'Clients seeking a long-term partnership for ongoing website support and improvement',
                             ]}
                         />
                     </div>
                 </div>
             </main>
-        </>
+        </Fragment>
     );
 };
 
