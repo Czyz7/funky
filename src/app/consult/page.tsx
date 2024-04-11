@@ -1,46 +1,81 @@
-import React from "react";
-import { Fragment } from "react";
-import Link from "next/link";
-import Head from "next/head";
-import Navigation from "@/components/Navigation";
-import Block from "@/components/block";
+import React from 'react';
+import Navigation from '@/components/Navigation';
+import Block from '@/components/block';
+import Head from 'next/head';
+import ConsultServ from '@/components/ConsultServ';
+import HeroConsult from '@/components/HeroConsult';
 
-const Coding = () => {
+const Consult = () => {
     return (
-        <Fragment>
+        <>
             <Head>
-                <title>Consulting</title>
-                <meta name="description" content="I offer a range of coding services, including web development, mobile development, and data science." />
+                <title>Consulting Services | Accessible Web Designs</title>
+                <meta name="description" content="Blah Blah" />
             </Head>
+
             <Navigation />
             <Block />
+            <HeroConsult />
+
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
-                    <h1 className="text-3xl font-bold">Consulting</h1>
-                    <p className="text-lg">
-                        I offer a range of coding services, including web development, mobile development, and data science. I have experience working with a variety of technologies, including React, Next.js, Node.js, HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Python, and Git.
-                    </p>
-                    <div className="flex space-x-4 mt-4">
-                        <Link href="/coding">
-                            <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
-                                CODING
-                            </button>
-                        </Link>
-                        <Link href="/wordpress">
-                            <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
-                                WORDPRESS
-                            </button>
-                        </Link>
-                        <Link href="/wix">
-                            <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
-                                WIX
-                            </button>
-                        </Link>
+                    {/* ... other consulting services content */}
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                        <ConsultServ
+                            tier="Tier 1: Foundational Consultation"
+                            focus="Introductory assessment and strategic guidance"
+                            includes={[
+                                'Accessibility audit (basic): Review of common WCAG guidelines and key issues.',
+                                'SEO assessment (basic): High-level analysis of current visibility and optimization opportunities.',
+                                'Website performance check: Basic speed and usability testing.',
+                                '1-2 hour strategy session: Discuss findings, priorities, and potential solutions.',
+                            ]}
+                            idealFor={[
+                                'Businesses unsure about their website\'s health',
+                                'Those wanting an affordable start to improving accessibility and SEO',
+                                'Clients seeking a roadmap for further improvements.',
+                            ]}
+                        />
+                        <ConsultServ
+                            tier="Tier 2: Comprehensive Analysis"
+                            focus="In-depth evaluation and optimization recommendations"
+                            includes={[
+                                'Everything in Tier 1',
+                                'Full website accessibility audit: Detailed review of all pages and elements for WCAG compliance.',
+                                'Advanced SEO analysis: Comprehensive keyword research, competitor analysis, and optimization strategy.',
+                                'Website performance optimization: In-depth analysis and recommendations for improving speed and usability.',
+                                '2-3 hour strategy session: Detailed discussion of findings, recommendations, and implementation plan.',
+                            ]}
+                            idealFor={[
+                                'Businesses serious about improving their website\'s accessibility and SEO',
+                                'Those seeking a comprehensive understanding of their website\'s strengths and weaknesses',
+                                'Clients wanting a roadmap for significant improvements.',
+                            ]}
+                        />
+                        <ConsultServ
+                            tier="Tier 3: Custom Solutions"
+                            focus="Tailored solutions for complex needs"
+                            includes={[
+                                'Everything in Tier 1 & 2',
+                                'Custom accessibility solutions: Development of custom solutions to address specific accessibility challenges.',
+                                'Advanced SEO strategy: Development and implementation of a comprehensive SEO strategy tailored to your specific goals.',
+                                'Website performance engineering: In-depth performance optimization and implementation of advanced techniques.',
+                                'Ongoing support and monitoring: Regular check-ins and support to ensure ongoing success.',
+                            ]}
+                            idealFor={[
+                                'Businesses with complex accessibility or SEO requirements',
+                                'Those seeking a fully customized solution to meet their specific needs',
+                                'Clients wanting a long-term partnership for ongoing support and improvement.',
+                            ]}
+                        />
                     </div>
                 </div>
             </main>
-        </Fragment>
+        </>
     );
 };
 
-export default Coding;
+export default Consult;
+
+

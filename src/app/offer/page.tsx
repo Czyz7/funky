@@ -26,11 +26,6 @@ const Offer = () => {
                                 CODING
                             </button>
                         </Link>
-                        <Link href="/wordpress">
-                            <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
-                                WORDPRESS
-                            </button>
-                        </Link>
                         <Link href="/manage">
                             <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
                                 Site Management
@@ -54,6 +49,11 @@ const Offer = () => {
                         <Link href="/accessibility">
                             <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
                                 Accessibility
+                            </button>
+                        </Link>
+                        <Link href="/consult">
+                            <button className="transition ease-in-out delay-150 text-black px-4 py-2 rounded-md bg-opacity-0 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-gradient-to-r from-amber-500 to-pink-500 duration-150">
+                                CONSULTATION
                             </button>
                         </Link>
                     </div>

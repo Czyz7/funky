@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Navigation from '../components/Navigation';
-import HeroSection from '../components/HeroSection';
+import HeroHome from '../components/HeroHome';
 import Link from 'next/link';
 
 // ... other component imports
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <Link rel="icon" href="/favicon.ico" />
       <Navigation />
-      <HeroSection />
+      <HeroHome />
       {/* ... other sections (Services, Portfolio, etc.) */}
     </div>
   );

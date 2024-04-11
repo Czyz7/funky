@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
 import AccessibilityPrice from '@/components/AccessibilityPrice';
+import HeroAccess from "@/components/HeroAccess";
 
 const Accessibility = () => {
     return (
@@ -14,6 +15,7 @@ const Accessibility = () => {
             </Head>
             <Navigation />
             <Block />
+            <HeroAccess />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
                     <h1 className="text-3xl font-bold">Accessibility</h1>
