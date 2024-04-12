@@ -8,12 +8,15 @@ const HeroCode = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                        <h1 className="text-4xl font-bold mb-4">PROFESSIONAL WEB DEVELOPMENT WITH CODING</h1>
-                        <p className="text-l mb-4">Unlock the power of a custom-coded website that meets your unique business needs. Our team of skilled developers will work closely with you to create a website that is both visually appealing and highly functional.</p>
+                        <h1 className="text-4xl font-bold mb-4">Vegas AI Solutions</h1>
 
-                        <p className="text-l mb-4">From simple brochure websites to complex e-commerce platforms, we have the expertise to bring your vision to life. We use the latest web development technologies and best practices to ensure that your website is fast, secure, and easy to use.</p>
+                        <p className="text-l mb-4">Unlock the power of a captivating website and eye-catching graphics that will leave a lasting impression on your customers.</p>
 
-                        <p className="text-l mb-4">In addition to custom web development, we also offer a range of other services, including website redesigns, WordPress development, and Wix development. No matter what your web development needs are, we have the skills and experience to help you achieve your goals.</p>
+                        <p className="text-l mb-4">Our team of skilled designers will work closely with you to create a digital experience that aligns with your brand identity, drives results, and empowers your business to reach new heights.</p>
+
+                        <p className="text-l mb-4">From sleek and modern websites to vibrant and engaging graphics, we offer a comprehensive suite of services to elevate your business to new heights.</p>
+
+                        <p className="text-l mb-4">Let us help you stand out from the competition and establish a strong online presence that will drive growth and success.</p>
 
                         <div className="flex space-x-4 mt-4">
                             <Link href="/redesign">

@@ -8,10 +8,15 @@ const HeroAccess = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                        <h1 className="text-4xl font-bold mb-4">PROFESSIONAL WEB DESIGN & GRAPHICS FOR YOUR BUSINESS</h1>
-                        <p className="text-l mb-4">Unlock the power of a captivating website and eye-catching graphics that will leave a lasting impression on your customers. Our team of skilled designers will work closely with you to create a digital experience that aligns with your brand identity and drives results.</p>
+                        <h1 className="text-4xl font-bold mb-4">Vegas AI Solutions</h1>
 
-                        <p className="text-l mb-4">From sleek and modern websites to vibrant and engaging graphics, we offer a comprehensive suite of services to elevate your business to new heights. Let us help you stand out from the competition and establish a strong online presence that will drive growth and success.</p>
+                        <p className="text-l mb-4">Unlock the power of a captivating website and eye-catching graphics that will leave a lasting impression on your customers.</p>
+
+                        <p className="text-l mb-4">Our team of skilled designers will work closely with you to create a digital experience that aligns with your brand identity, drives results, and empowers your business to reach new heights.</p>
+
+                        <p className="text-l mb-4">From sleek and modern websites to vibrant and engaging graphics, we offer a comprehensive suite of services to elevate your business to new heights.</p>
+
+                        <p className="text-l mb-4">Let us help you stand out from the competition and establish a strong online presence that will drive growth and success.</p>
 
                         <div className="flex space-x-4 mt-4">
                             <Link href="/offer">
