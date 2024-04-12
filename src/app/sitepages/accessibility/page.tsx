@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
-import AccessibilityPrice from '@/components/AccessibilityPrice';
-import HeroAccess from "@/components/HeroAccess";
+import AccessibilityPrice from '@/components/ServiceForms/AccessibilityPrice';
+import HeroAccess from "@/components/Hero/HeroAccess";
 
 const Accessibility = () => {
     return (

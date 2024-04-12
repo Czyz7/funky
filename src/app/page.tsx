@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Navigation from '../components/Navigation';
-import HeroHome from '../components/HeroHome';
+import Navigation from '@/components/Navigation';
+import HeroHome from '@/components/Hero/HeroHome';
 import Link from 'next/link';
 
 // ... other component imports

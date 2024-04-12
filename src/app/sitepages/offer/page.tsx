@@ -3,7 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
-import HeroServe from "@/components/HeroServ";
+import HeroServe from "@/components/Hero/HeroServ";
 
 const Offer = () => {
     return (

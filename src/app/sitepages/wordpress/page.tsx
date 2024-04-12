@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import HeroWordPress from '@/components/HeroWordPress';
-import WordPressServ from '@/components/WordPressServ';
+import HeroWordPress from '@/components/Hero/HeroWordPress';
+import WordPressServ from '@/components/ServiceForms/WordPressServ';
 
 const Wordpress = () => {
     return (

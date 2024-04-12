@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import HeroWix from '@/components/HeroWix';
-import WixServ from '@/components/WixServ';
+import HeroWix from '@/components/Hero/HeroWix';
+import WixServ from '@/components/ServiceForms/WixServ';
 
 const Wix = () => {
     return (

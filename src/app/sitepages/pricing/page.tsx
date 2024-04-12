@@ -1,7 +1,7 @@
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import HeroPrice from '@/components/HeroPrice';
+import HeroPrice from '@/components/Hero/HeroPrice';
 import { Fragment } from 'react';
 
 const Pricing = () => {

@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
-import BlogServ from '@/components/BlogServ';
+import BlogServ from '@/components/ServiceForms/BlogServ';
 import Head from 'next/head';
-import HeroBlog from '@/components/HeroBlog';
+import HeroBlog from '@/components/Hero/HeroBlog';
 
 const BlogPost = () => {
     return (

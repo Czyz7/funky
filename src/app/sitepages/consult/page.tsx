@@ -2,11 +2,11 @@ import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import RedesignServ from '@/components/ConsultServ';
-import HeroRedesign from '@/components/HeroRedesign';
+import ConsultServ from '@/components/ServiceForms/ConsultServ';
+import HeroConsult from '@/components/Hero/HeroConsult';
 
 
-const Redesign = () => {
+const Consult = () => {
     return (
         <Fragment>
             <Head>
@@ -16,14 +16,14 @@ const Redesign = () => {
 
             <Navigation />
             <Block />
-            <HeroRedesign />
+            <HeroConsult />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
                     {/* ... other consulting services content */}
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                        <RedesignServ
+                        <ConsultServ
                             tier="SEO Consultation"
                             focus="Improve your website's visibility and ranking in search results."
                             includes={[
@@ -40,7 +40,7 @@ const Redesign = () => {
                                 'Clients seeking to drive more traffic to their website',
                             ]}
                         />
-                        <RedesignServ
+                        <ConsultServ
                             tier="Accessibility Consultation"
                             focus="Make your website accessible to everyone, regardless of their abilities."
                             includes={[
@@ -56,7 +56,7 @@ const Redesign = () => {
                                 'Clients seeking to improve the user experience for all visitors',
                             ]}
                         />
-                        <RedesignServ
+                        <ConsultServ
                             tier="Website Development Consultation"
                             focus="Create a custom website that meets your specific needs and goals."
                             includes={[
@@ -79,6 +79,6 @@ const Redesign = () => {
     );
 };
 
-export default Redesign;
+export default Consult;
 
 

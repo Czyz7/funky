@@ -3,8 +3,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
-import HeroCode from "@/components/HeroCode";
-import CodeServ from "@/components/CodeServ";
+import HeroCode from "@/components/Hero/HeroCode";
+import CodeServ from "@/components/ServiceForms/CodeServ";
 
 const Coding = () => {
     return (

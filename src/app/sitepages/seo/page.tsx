@@ -2,10 +2,10 @@ import React from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import SeoKey from '@/components/SeoKey';
-import SeoOnin from '@/components/SeoOnin';
-import HeroSeo from '@/components/HeroSeo';
-import SeoTechn from '@/components/SeoTechn';
+import SeoKey from '@/components/ServiceForms/SeoKey';
+import SeoOnin from '@/components/ServiceForms/SeoOnin';
+import HeroSeo from '@/components/Hero/HeroSeo';
+import SeoTechn from '@/components/ServiceForms/SeoTechn';
 
 const SEO = () => {
     const onpageBenefits = [

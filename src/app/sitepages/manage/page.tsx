@@ -2,28 +2,29 @@ import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import ConsultServ from '@/components/ConsultServ';
-import HeroConsult from '@/components/HeroConsult';
+import HeroManage from '@/components/Hero/HeroManage';
+import ManageServe from '@/components/ServiceForms/ManageServe';
 
 
-const Consult = () => {
+
+
+const Manage = () => {
     return (
         <Fragment>
             <Head>
-                <title>Consulting Services | Accessible Web Designs</title>
-                <meta name="description" content="Blah Blah" />
+                <title>SEO Page | Accessible Web Designs</title>
+                <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
-
             <Navigation />
             <Block />
-            <HeroConsult />
+            <HeroManage />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
                     {/* ... other consulting services content */}
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                        <ConsultServ
+                        <ManageServe
                             tier="SEO Consultation"
                             focus="Improve your website's visibility and ranking in search results."
                             includes={[
@@ -40,7 +41,7 @@ const Consult = () => {
                                 'Clients seeking to drive more traffic to their website',
                             ]}
                         />
-                        <ConsultServ
+                        <ManageServe
                             tier="Accessibility Consultation"
                             focus="Make your website accessible to everyone, regardless of their abilities."
                             includes={[
@@ -56,7 +57,7 @@ const Consult = () => {
                                 'Clients seeking to improve the user experience for all visitors',
                             ]}
                         />
-                        <ConsultServ
+                        <ManageServe
                             tier="Website Development Consultation"
                             focus="Create a custom website that meets your specific needs and goals."
                             includes={[
@@ -79,6 +80,4 @@ const Consult = () => {
     );
 };
 
-export default Consult;
-
-
+export default Manage;

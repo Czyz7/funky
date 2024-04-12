@@ -21,7 +21,7 @@ const Navigation = () => {
                 </Link>
                 <ul className="hidden md:flex space-x-6">
                     <li>
-                        <Link href="/about" className="hover:underline">About</Link>
+                        <Link href="/sitepages/about" className="hover:underline">About</Link>
                     </li>
 
                     {/* Changes for Services Dropdown */}
@@ -32,7 +32,7 @@ const Navigation = () => {
                             onMouseEnter={() => setIsServicesDropdownOpen(true)}
                             onMouseLeave={() => setIsServicesDropdownOpen(true)}
                         >
-                            <Link href="/offer" className="hover:underline">Services</Link>
+                            <Link href="/sitepages/offer" className="hover:underline">Services</Link>
                         </button>
 
                         {/* Submenu */}
@@ -40,45 +40,45 @@ const Navigation = () => {
                             className={`absolute top-full left-0 bg-gray-800 shadow-md rounded-md p-2 hidden group-hover:block transition-all ${isServicesDropdownOpen ? 'opacity-100' : 'opacity-0'
                                 }`}
                         >
-                            <Link href="/coding">
+                            <Link href="/sitepages/coding">
                                 {/* Styling directly on the link, or use a plain div */}
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Design</div>
                             </Link>
 
-                            <Link href="/manage">
+                            <Link href="/sitepages/manage">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Management</div>
                             </Link>
 
-                            <Link href="/redesign">
+                            <Link href="/sitepages/redesign">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Redesign</div>
                             </Link>
 
-                            <Link href="/blogpost">
+                            <Link href="/sitepages/blogpost">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Blog Posts</div>
                             </Link>
 
-                            <Link href="/seo">
+                            <Link href="/sitepages/seo">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">SEO</div>
                             </Link>
-                            <Link href="/accessibility">
+                            <Link href="/sitepages/accessibility">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Accessibility</div>
                             </Link>
-                            <Link href="/consult">
+                            <Link href="/sitepages/consult">
                                 <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Consulting</div>
                             </Link>
 
                             {/* ... Add more service links here */}
                         </div>
                     </li>
-                    <li><Link href="/pricing" className="hover:underline">Pricing</Link></li>
-                    <li><Link href="/portfolio" className="hover:underline">Portfolio</Link></li>
-                    <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+                    <li><Link href="/sitepages/pricing" className="hover:underline">Pricing</Link></li>
+                    <li><Link href="/sitepages/portfolio" className="hover:underline">Portfolio</Link></li>
+                    <li><Link href="/sitepages/contact" className="hover:underline">Contact</Link></li>
                     {/* ... more links */}
                 </ul>
 
                 {/* ... your code for mobile menu */}
 
-                <Link href="/contact" className="block md:hidden">
+                <Link href="/sitepages/contact" className="block md:hidden">
                     <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-opacity-80">
                         Contact Us
                     </button>

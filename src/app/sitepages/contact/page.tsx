@@ -3,7 +3,7 @@ import React from 'react';
 import ContactForm from '@/components/ContactForm'; // Import the component
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
-import HeroContact from '@/components/HeroContact';
+import HeroContact from '@/components/Hero/HeroContact';
 
 // Inside your component's JSX:
 const App = () => {
