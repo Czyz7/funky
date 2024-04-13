@@ -72,6 +72,7 @@ const Navigation = () => {
                     </li>
                     <li><Link href="/sitepages/pricing" className="hover:underline">Pricing</Link></li>
                     <li><Link href="/sitepages/portfolio" className="hover:underline">Portfolio</Link></li>
+                    <li><Link href="/blog/bloghome" className="hover:underline">Blog</Link></li>
                     <li><Link href="/sitepages/contact" className="hover:underline">Contact</Link></li>
                     {/* ... more links */}
                 </ul>
