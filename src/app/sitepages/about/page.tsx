@@ -1,10 +1,12 @@
+import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
+import Testimonial1 from '@/components/Testimonial1';
 
 const About = () => {
     return (
-        <>
+        <Fragment>
             <Head>
                 <title>About Us | Vegas AI Solutions</title>
                 <meta name="description" content="Learn more about Accessible Web Designs and our mission to make the web accessible to everyone." />
@@ -12,12 +14,10 @@ const About = () => {
             <Navigation />
             <Block />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <h1>Vegas AI Solutions</h1>
-                <p>
-                    To empower businesses with cutting-edge, AI-driven websites that deliver exceptional user experiences, boost online visibility, and promote inclusivity.
-                </p>
+                <Testimonial1 />
             </main>
-        </>
+
+        </Fragment>
     );
 };
 
