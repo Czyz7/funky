@@ -5,7 +5,6 @@ import Head from 'next/head';
 import ConsultServ from '@/components/ServiceForms/ConsultServ';
 import HeroConsult from '@/components/Hero/HeroConsult';
 
-
 const Consult = () => {
     return (
         <Fragment>
@@ -20,59 +19,8 @@ const Consult = () => {
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
-                    {/* ... other consulting services content */}
+                    <ConsultServ />
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                        <ConsultServ
-                            tier="SEO Consultation"
-                            focus="Improve your website's visibility and ranking in search results."
-                            includes={[
-                                'Keyword research and analysis',
-                                'On-page and off-page optimization',
-                                'Content creation and optimization',
-                                'Technical SEO audit and implementation',
-                                'Monthly reporting and analysis',
-                            ]}
-
-                            idealFor={[
-                                'Businesses looking to increase their online visibility',
-                                'Those wanting to improve their website\'s ranking in search results',
-                                'Clients seeking to drive more traffic to their website',
-                            ]}
-                        />
-                        <ConsultServ
-                            tier="Accessibility Consultation"
-                            focus="Make your website accessible to everyone, regardless of their abilities."
-                            includes={[
-                                'Website accessibility audit',
-                                'WCAG compliance remediation',
-                                'Assistive technology testing',
-                                'Accessibility training and support',
-                                'Ongoing monitoring and maintenance',
-                            ]}
-                            idealFor={[
-                                'Businesses required to comply with accessibility regulations',
-                                'Those wanting to make their website more inclusive and user-friendly',
-                                'Clients seeking to improve the user experience for all visitors',
-                            ]}
-                        />
-                        <ConsultServ
-                            tier="Website Development Consultation"
-                            focus="Create a custom website that meets your specific needs and goals."
-                            includes={[
-                                'Website design and development',
-                                'Content creation and management',
-                                'E-commerce integration',
-                                'Website maintenance and support',
-                                'Ongoing consultation and optimization',
-                            ]}
-                            idealFor={[
-                                'Businesses needing a new website or a redesign of their existing website',
-                                'Those wanting a website that is tailored to their specific industry and target audience',
-                                'Clients seeking a long-term partnership for ongoing website support and improvement',
-                            ]}
-                        />
-                    </div>
                 </div>
             </main>
         </Fragment>
@@ -80,5 +28,3 @@ const Consult = () => {
 };
 
 export default Consult;
-
-
