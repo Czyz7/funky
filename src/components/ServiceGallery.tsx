@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 const ServiceGallery = () => {
@@ -36,7 +35,7 @@ const ServiceGallery = () => {
                         <div className="p-24 rounded-lg bg-blogpost-bg bg-cover bg-center">
                             <div className="flex flex-col items-center justify-center w-full h-full">
                                 <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Website Management</h2>
+                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Site Management</h2>
                             </div>
                         </div>
                     </Link>

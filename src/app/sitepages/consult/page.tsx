@@ -18,10 +18,9 @@ const Consult = () => {
             <HeroConsult />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <div className="container mx-auto px-4">
-                    <ConsultServ />
 
-                </div>
+                <ConsultServ />
+
             </main>
         </Fragment>
     );
