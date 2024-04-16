@@ -3,7 +3,7 @@ import HeroBlog from '@/components/Hero/HeroBlog';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
-import BlogBlock from '@/components/BlogBlock';
+import BlogBlock from '@/components/Blog/BlogBlock';
 
 
 
