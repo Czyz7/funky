@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Link from "next/link";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
@@ -18,7 +17,7 @@ const Coding = () => {
             <HeroCode />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing</h1>
+                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-800 ">Pricing for Coding Services</h1>
                 <Block />
                 <CodeServ />
             </main>
