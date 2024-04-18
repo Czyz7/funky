@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const ServiceGallery = () => {
     return (
@@ -8,15 +9,24 @@ const ServiceGallery = () => {
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-3 rounded-lg transition duration-300 ease-in-out hover:scale-110 ">
                         <Link href="/sitepages/blogpost">
-                            {/* Use your custom class or inline background url */}
-                            <div className="p-24 rounded-lg bg-blogpost-bg bg-cover bg-center">
-                                <div className="flex flex-col items-center justify-center w-full h-full">
+                            <div className="p-24 rounded-lg relative"> {/* Make the container relative */}
+                                <Image
+                                    src="/coolGuy.png"
+                                    alt="Image Description"
+                                    layout="fill"  // Fill the container
+                                    objectFit="cover" // Adjust how the image fits
+                                    quality={100}
+                                    priority={true} // Prioritize this image for loading (optional)
+                                />
+                                <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
+                                    {/* Overlay your content on top of the image */}
                                     <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
                                     <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Website Design</h2>
                                 </div>
                             </div>
                         </Link>
                     </div>
+
                     {/* ... (similar changes to the rest of your divs) ... */}
                     <div className="xl:w-1/4 md:w-1/2 p-3 rounded-lg transition duration-300 ease-in-out hover:scale-110 ">
                         <Link href="/sitepages/blogpost">
