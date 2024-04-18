@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
-import HeroServe from "@/components/Hero/HeroServ";
+import HeroOffer from "@/components/Hero/HeroOffer";
 import ServiceGallery from "@/components/ServiceGallery";
 
 const Offer = () => {
@@ -14,7 +14,7 @@ const Offer = () => {
             </Head>
             <Navigation />
             <Block />
-            <HeroServe />
+            <HeroOffer />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <div className="container mx-auto px-4">
                     <Block />

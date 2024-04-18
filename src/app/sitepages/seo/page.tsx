@@ -21,11 +21,11 @@ const SEO = () => {
             <HeroSeo />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing</h1>
+                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Technical SEO Services</h1>
                 <Block />
                 <SeoKey />
                 <Block />
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing</h1>
+                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Keyword Research Services</h1>
                 <Block />
                 <SeoTechn />
             </main>

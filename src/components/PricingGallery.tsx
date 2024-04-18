@@ -19,7 +19,7 @@ const ServiceGallery = () => {
                             </div>
                             {/* Image with opacity */}
                             <Image
-                                src="/laptop.png"
+                                src="/compMstr.png"
                                 alt="Background Image"
                                 layout="fill"
                                 objectFit="cover"
@@ -37,7 +37,7 @@ const ServiceGallery = () => {
                         <div className="p-24 rounded-lg bg-cover bg-center relative">
                             {/* Image with opacity */}
                             <Image
-                                src="/laptop.png"
+                                src="/Hero Images/wpEr.png"
                                 alt="Background Image"
                                 layout="fill"
                                 objectFit="cover"
@@ -50,7 +50,7 @@ const ServiceGallery = () => {
                                     AI Assisted
                                 </h3>
                                 <h2 className="text-lg text-white font-medium title-font mb-2">
-                                    Website Design
+                                    WordPress Design
                                 </h2>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const ServiceGallery = () => {
                         <div className="p-24 rounded-lg bg-cover bg-center relative">
                             {/* Image with opacity */}
                             <Image
-                                src="/laptop.png"
+                                src="/Hero Images/webManage.png"
                                 alt="Background Image"
                                 layout="fill"
                                 objectFit="cover"
@@ -75,7 +75,7 @@ const ServiceGallery = () => {
                                     AI Assisted
                                 </h3>
                                 <h2 className="text-lg text-white font-medium title-font mb-2">
-                                    Website Design
+                                    Website Management
                                 </h2>
                             </div>
                         </div>

@@ -36,7 +36,7 @@ const HeroManage = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/coolGuy.png" alt="Hero image" width={512} height={512} className="hero-image" />
+                        <Image src="/officeCollab.png" alt="Hero image" width={512} height={512} className="hero-image" />
                     </div>
                 </div>
             </div>
