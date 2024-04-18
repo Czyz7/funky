@@ -8,7 +8,7 @@ const HeroManage = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                        <h1 className="text-4xl font-bold mb-4">Vegas AI Solutions</h1>
+                        <h1 className="text-4xl font-bold mb-4 text-center">Digital AI Solutions</h1>
 
                         <p className="text-l mb-4">Unlock the power of a captivating website and eye-catching graphics that will leave a lasting impression on your customers.</p>
 
@@ -18,7 +18,7 @@ const HeroManage = () => {
 
                         <p className="text-l mb-4">Let us help you stand out from the competition and establish a strong online presence that will drive growth and success.</p>
 
-                        <div className="flex space-x-4 mt-4">
+                        <div className="flex space-x-4 mt-4 justify-center">
                             <Link href="/offer">
                                 <button className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
                                     <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-gradient-to-r from-fuchsia-500 to-cyan-500 rounded-full group-hover:w-56 group-hover:h-56"></span>
@@ -36,7 +36,7 @@ const HeroManage = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/laptop.png" alt="Hero image" width={512} height={512} className="hero-image" />
+                        <Image src="/coolGuy.png" alt="Hero image" width={512} height={512} className="hero-image" />
                     </div>
                 </div>
             </div>
