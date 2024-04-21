@@ -2,8 +2,9 @@ import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import HeroPrice from '@/components/Hero/HeroPrice';
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import PricingGallery from '@/components/PricingGallery';
+import Footer from '@/components/Footer';
 
 const Pricing = () => {
     return (
@@ -19,6 +20,7 @@ const Pricing = () => {
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <PricingGallery />
             </main>
+            <Footer />
         </Fragment>
     );
 };

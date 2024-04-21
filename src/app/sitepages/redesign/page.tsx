@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import Head from 'next/head';
 import RedesignServ from '@/components/ServiceForms/ConsultServ';
 import HeroRedesign from '@/components/Hero/HeroRedesign';
+import Footer from '@/components/Footer';
 
 
 const Redesign = () => {
@@ -23,6 +24,7 @@ const Redesign = () => {
                 <Block />
                 <RedesignServ />
             </main>
+            <Footer />
         </Fragment>
     );
 };

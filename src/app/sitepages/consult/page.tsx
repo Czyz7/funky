@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import Head from 'next/head';
 import ConsultServ from '@/components/ServiceForms/ConsultServ';
 import HeroConsult from '@/components/Hero/HeroConsult';
+import Footer from '@/components/Footer';
 
 const Consult = () => {
     return (
@@ -22,6 +23,7 @@ const Consult = () => {
                 <ConsultServ />
 
             </main>
+            <Footer />
         </Fragment>
     );
 };

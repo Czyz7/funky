@@ -4,6 +4,7 @@ import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
 import HeroCode from "@/components/Hero/HeroCode";
 import CodeServ from "@/components/ServiceForms/CodeServ";
+import Footer from "@/components/Footer";
 
 const Coding = () => {
     return (
@@ -21,6 +22,7 @@ const Coding = () => {
                 <Block />
                 <CodeServ />
             </main>
+            <Footer />
         </Fragment>
     );
 };

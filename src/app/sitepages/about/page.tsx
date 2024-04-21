@@ -3,6 +3,7 @@ import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import Testimonial1 from '@/components/Testimonial1';
+import Footer from '@/components/Footer';
 
 const About = () => {
     return (
@@ -45,7 +46,7 @@ const About = () => {
                 </section>
                 <Testimonial1 />
             </main>
-
+            <Footer />
         </Fragment>
     );
 };

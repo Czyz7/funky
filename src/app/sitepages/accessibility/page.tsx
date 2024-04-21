@@ -4,6 +4,7 @@ import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
 import AccessibilityPrice from '@/components/ServiceForms/AccessibilityPrice';
 import HeroAccess from "@/components/Hero/HeroAccess";
+import Footer from "@/components/Footer";
 
 const Accessibility = () => {
     return (
@@ -20,6 +21,7 @@ const Accessibility = () => {
                 <Block />
                 <AccessibilityPrice />
             </main>
+            <Footer />
         </Fragment>
     );
 };

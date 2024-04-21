@@ -3,6 +3,7 @@ import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import PortfolioLogos from '@/components/PortfolioLogos';
+import Footer from '@/components/Footer';
 
 
 
@@ -63,6 +64,7 @@ const Portfolio = () => {
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <PortfolioLogos logos={logos} />
             </main>
+            <Footer />
         </Fragment>
     );
 };

@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import Head from 'next/head';
 import HeroWix from '@/components/Hero/HeroWix';
 import WixServ from '@/components/ServiceForms/WixServ';
+import Footer from '@/components/Footer';
 
 const Wix = () => {
     return (
@@ -21,6 +22,7 @@ const Wix = () => {
                 <Block />
                 <WixServ />
             </main>
+            <Footer />
         </Fragment>
     );
 };

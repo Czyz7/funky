@@ -6,48 +6,49 @@ import React, { Fragment } from 'react';
 import Testimonial1 from '@/components/Testimonial1';
 import Block from '@/components/block';
 import PortfolioLogos from '@/components/PortfolioLogos';
+import Footer from '@/components/Footer';
 
 // ... other component imports
 const Portfolio = () => {
   const logos = [
     {
-      alt: 'Logo 1',
+      alt: 'Maries Kaliedoscope Lupus Non Profit Foundation',
       src: '/mkLogo.webp',
       href: 'https://www.mk.com/',
     },
     {
-      alt: 'Logo 2',
+      alt: 'Protect Your Glory E-Commerce Store',
       src: '/pygLogo.webp',
       href: 'https://www.pygapparel.com',
     },
     {
-      alt: 'Logo 3',
+      alt: 'Financial Harmony Tax Resolution',
       src: '/fhtrLogo.png',
       href: 'https://www.mk.com/',
     },
     {
-      alt: 'Logo 1',
+      alt: 'Digital Mindmeld',
       src: '/dmmLogo.png',
       href: 'https://www.mk.com/',
     },
     {
-      alt: 'Logo 2',
+      alt: 'Dogware LLC Dog Leash Company',
       src: '/dogwareLogo.png',
     },
     {
-      alt: 'Logo 3',
+      alt: 'Something',
       src: '/laptop.png',
     },
     {
-      alt: 'Logo 1',
+      alt: 'Blah Blah',
       src: '/laptop.png',
     },
     {
-      alt: 'Logo 2',
+      alt: 'Yada Yada',
       src: '/laptop.png',
     },
     {
-      alt: 'Logo 3',
+      alt: 'Yeah Sure',
       src: '/laptop.png',
     },
   ];
@@ -69,7 +70,7 @@ const Portfolio = () => {
           <Block />
           <PortfolioLogos logos={logos} />
         </main>
-        {/* ... footer */}
+        <Footer />
         {/* ... other sections (Services, Portfolio, etc.) */}
       </Fragment>
     );

@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import BlogServ from '@/components/ServiceForms/BlogServ';
 import Head from 'next/head';
 import HeroBlog from '@/components/Hero/HeroBlog';
+import Footer from "@/components/Footer";
 
 const BlogPost = () => {
     return (
@@ -22,6 +23,7 @@ const BlogPost = () => {
                     <BlogServ />
                 </main>
             </main>
+            <Footer />
         </Fragment>
     );
 };

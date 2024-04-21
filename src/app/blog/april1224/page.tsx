@@ -1,7 +1,9 @@
+import React, { Fragment } from 'react'
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import BlogTemplate from '@/components/Blog/BlogTemplate';
+import Footer from '@/components/Footer';
 
 const April1224 = () => {
     // Updated blog data
@@ -47,7 +49,7 @@ const April1224 = () => {
     };
 
     return (
-        <>
+        <Fragment>
             <Head>
                 <title>Blog | The Benefits of Integrating AI into Your Workload</title>
                 <meta name="description" content="Learn more about The Benefits of Integrating AI into Your Workload." />
@@ -64,7 +66,8 @@ const April1224 = () => {
                     />
                 </div>
             </main>
-        </>
+            <Footer />
+        </Fragment>
     );
 };
 

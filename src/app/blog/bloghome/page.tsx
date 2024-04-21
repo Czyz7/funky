@@ -4,6 +4,7 @@ import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import BlogBlock from '@/components/Blog/BlogBlock';
+import Footer from '@/components/Footer';
 
 
 
@@ -20,7 +21,7 @@ const BlogHome = () => {
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <BlogBlock />
             </main>
-
+            <Footer />
         </Fragment>
     );
 };

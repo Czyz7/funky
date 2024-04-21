@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import Head from 'next/head';
 import HeroManage from '@/components/Hero/HeroManage';
 import ManageServe from '@/components/ServiceForms/ManageServe';
+import Footer from '@/components/Footer';
 
 
 
@@ -24,6 +25,7 @@ const Manage = () => {
                 <Block />
                 <ManageServe />
             </main>
+            <Footer />
         </Fragment>
     );
 };

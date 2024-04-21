@@ -4,6 +4,7 @@ import Navigation from "@/components/Navigation";
 import Block from "@/components/block";
 import HeroOffer from "@/components/Hero/HeroOffer";
 import ServiceGallery from "@/components/ServiceGallery";
+import Footer from "@/components/Footer";
 
 const Offer = () => {
     return (
@@ -21,6 +22,7 @@ const Offer = () => {
                     <ServiceGallery />
                 </div>
             </main>
+            <Footer />
         </Fragment>
     );
 };

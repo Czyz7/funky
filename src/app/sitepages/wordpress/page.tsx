@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import Head from 'next/head';
 import HeroWordPress from '@/components/Hero/HeroWordPress';
 import WordPressServ from '@/components/ServiceForms/WordPressServ';
+import Footer from '@/components/Footer';
 
 const Wordpress = () => {
     return (
@@ -21,6 +22,7 @@ const Wordpress = () => {
                 <Block />
                 <WordPressServ />
             </main>
+            <Footer />
         </Fragment>
     );
 };

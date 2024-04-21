@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
 import Block from '@/components/block';
 import Head from 'next/head';
 import HeroSeo from '@/components/Hero/HeroSeo';
 import SeoServ from '@/components/ServiceForms/SeoServ';
+import Footer from '@/components/Footer';
 
 const SEO = () => {
 
     return (
-        <>
+        <Fragment>
             <Head>
                 <title>SEO Page | Accessible Web Designs</title>
                 <meta name="description" content="This is a filler page for the SEO page." />
@@ -26,7 +27,8 @@ const SEO = () => {
                 <Block />
                 <SeoServ />
             </main>
-        </>
+            <Footer />
+        </Fragment>
     );
 };
 
