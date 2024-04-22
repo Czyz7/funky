@@ -36,7 +36,7 @@ const HeroSeo = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/wix0.png" alt="Hero image" width={512} height={512} className="hero-image" />
+                        <Image src="/Hero Images/wix0.png" alt="Hero image" width={512} height={512} className="hero-image" />
                     </div>
                 </div>
             </div>

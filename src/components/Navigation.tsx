@@ -40,9 +40,13 @@ const Navigation = () => {
                             className={`absolute top-full left-0 bg-gray-800 shadow-md rounded-md p-2 hidden group-hover:block transition-all ${isServicesDropdownOpen ? 'opacity-100' : 'opacity-0'
                                 }`}
                         >
-                            <Link href="/sitepages/coding">
+                            <Link href="/sitepages/wordpress">
                                 {/* Styling directly on the link, or use a plain div */}
-                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Website Design</div>
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">WordPress Development</div>
+                            </Link>
+
+                            <Link href="/sitepages/wix">
+                                <div className="block px-4 py-2 hover:bg-gray-800 hover:underline">Wix Development</div>
                             </Link>
 
                             <Link href="/sitepages/manage">
