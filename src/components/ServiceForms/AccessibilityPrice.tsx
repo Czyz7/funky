@@ -8,10 +8,11 @@ const AccessibilityPrice: React.FC = () => {
                     <div className="h-full p-6 rounded-lg border-2 bg-gray-800 border-gray-300 flex flex-col relative overflow-hidden">
                         <br>
                         </br>
+                        <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">ACCESSIBILITY QUICKSTART</h2>
                         <br>
                         </br>
-                        <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">$499</h1>
+                        <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">$900</h1>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
@@ -40,7 +41,7 @@ const AccessibilityPrice: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+                        <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
 
                         </button>
                         <br>
@@ -55,12 +56,12 @@ const AccessibilityPrice: React.FC = () => {
                     <div className="h-full p-6 rounded-lg border-2 border-gray-300 bg-gray-800 flex flex-col relative overflow-hidden">
                         <br>
                         </br>
-                        <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">GUIDED REMEDIATION</h2>
                         <br>
                         </br>
                         <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200 ">
-                            <span>$2999</span>
+                            <span>$3000</span>
                         </h1>
                         <br>
                         </br>
@@ -101,7 +102,7 @@ const AccessibilityPrice: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
+                        <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
 
                         </button>
 

@@ -1,10 +1,12 @@
 import Image from 'next/image';
+import Block from './block';
 
 const Testimonial1 = () => {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <h1 className="text-4xl font-bold title-font text-gray-900 text-center">Testimonials</h1>
+                <Block />
                 <div className="flex flex-wrap -m-4">
                     <div className="p-4 md:w-1/2 w-full">
                         <div className="h-full bg-gray-800 p-8 rounded">

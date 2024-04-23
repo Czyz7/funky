@@ -6,6 +6,7 @@ import Testimonial1 from '@/components/Testimonial1';
 import Footer from '@/components/Footer';
 
 const About = () => {
+
     return (
         <Fragment>
             <Head>
@@ -44,6 +45,7 @@ const About = () => {
                         <li>Competitive advantage</li>
                     </ul>
                 </section>
+                <Block />
                 <Testimonial1 />
             </main>
             <Footer />
