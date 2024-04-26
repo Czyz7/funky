@@ -8,7 +8,7 @@ const ServiceGallery = () => {
             <div className=" px-5 md:px-10 lg:px-6 py-8 rounded-3xl bg-gray-800 ">
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:bg-indigo-500">
-                        <Link href="/sitepages/coding">
+                        <Link href="/sitepages/wordpress">
                             <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                                 <Image
                                     src="/Hero Images/wpEr.png"
@@ -30,7 +30,7 @@ const ServiceGallery = () => {
 
                     {/* ... (similar changes to the rest of your divs) ... */}
                     <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:bg-indigo-500">
-                        <Link href="/sitepages/wordpress">
+                        <Link href="/sitepages/wix">
                             <div className="p-20 rounded-lg bg-center "> {/* Make the container relative */}
                                 <Image
                                     src="/Hero Images/wix0.png"

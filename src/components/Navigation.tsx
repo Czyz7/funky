@@ -12,11 +12,13 @@ const Navigation = () => {
             <div className="container mx-auto flex items-center justify-between">
                 <Link href="/">
                     <Image
-                        src="/awd.png"
-                        width={50}
-                        height={75}
-                        alt="Accessible Web Designs"
+                        src="/blotLogoLg.png"
+                        height={150}
+                        width={42}
+                        alt="Blot AI"
                         className="h-10"
+                        layout='fixed'
+                        style={{ border: 'shadow', borderRadius: '5px' }}
                     />
                 </Link>
                 <ul className="hidden md:flex space-x-6">

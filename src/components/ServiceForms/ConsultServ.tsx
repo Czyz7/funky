@@ -20,24 +20,29 @@ const ConsultServ: React.FC = () => {
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Get a website that reflects your brand&lsquo;s unique value.
 
                         </p>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Jumpstart your design process with AI-powered inspiration.
                         </p>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-6">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span> Build a lightning-fast website that boosts conversions.
                         </p>
 
@@ -45,8 +50,8 @@ const ConsultServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
-
+                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
+                            Button
                         </button>
                         <br>
                         </br>
@@ -60,7 +65,7 @@ const ConsultServ: React.FC = () => {
                     <div className="h-full p-6 rounded-lg border-2 border-gray-300 bg-gray-800 flex flex-col relative overflow-hidden">
                         <br>
                         </br>
-                        <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                        <span className="bg-gradient-to-bl from-sky-500 to-blue-600 text-indigo-50 px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">SEO CONSULTING</h2>
                         <br>
                         </br>
@@ -73,22 +78,28 @@ const ConsultServ: React.FC = () => {
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Discover what&lsquo;s preventing you from ranking higher in search results.
                         </p>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Harness the power of AI for actionable SEO insights.
                         </p>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Develop a winning strategy to dominate your niche online.
                         </p>
                         <br>
@@ -105,8 +116,8 @@ const ConsultServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
-
+                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
+                            Button
                         </button>
 
                         <br>
@@ -132,30 +143,36 @@ const ConsultServ: React.FC = () => {
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Ensure your website offers a seamless experience for all users.
                         </p>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Minimize legal risk with a WCAG-compliant website.
                         </p>
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
-                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-
+                            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
                             </span>Become a champion of inclusivity in your digital space.
                         </p>
                         <br>
                         </br>
 
 
-                        <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
-
+                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
+                            Button
                         </button>
                         <br>
                         </br>

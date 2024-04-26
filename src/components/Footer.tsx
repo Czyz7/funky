@@ -1,21 +1,30 @@
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 const Footer = () => {
     return (
         <footer className="text-gray-600 bg-gray-800 body-font">
             <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col justify-center items-center">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left justify-center items-center">
+                    <p className=" text-indigo-50 text-3xl text-center">Blot AI</p>
+                    <br />
                     <Link href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-white">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                        <span className="ml-3 text-indigo-50 text-2xl">JIBBERJABBER</span>
+                        <Image
+                            src="/blotLogoLg.png"
+                            alt="blotLogoLg"
+                            width={210}
+                            height={210}
+                            className='rounded-md'
+                        />
+
                     </Link>
                     <br />
-                    <p className="mt-2 text-sm text-white">Air plant banjo lyft occupy retro adaptogen indego</p>
+                    <p className="mt-2 text-sm text-white">Make your mark online with our AI solutions</p>
+                    <br />
                 </div>
-                <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div className="flex-grow justify-center flex flex-wrap  text-center">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-medium text-indigo-50 tracking-widest text-2xl mb-3">Services</h2>
                         <br />
@@ -112,15 +121,14 @@ const Footer = () => {
             <div className=" bg-gray-800">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row ">
 
-                    <p className="text-indigo-50 text-sm text-center sm:text-left">© 2020 Tailblocks —
-                        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@knyttneve</a>
+                    <p className="text-indigo-50 text-sm text-center sm:text-left"> Blot AI © | Copyright 2024 | All Rights Reserved
+
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start text-indigo-50 ml-3">
 
                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                         </svg>
-
 
                         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                             <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
