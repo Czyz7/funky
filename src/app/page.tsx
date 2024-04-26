@@ -57,7 +57,7 @@ const Portfolio = () => {
     return (
       <Fragment>
         <Head>
-          <title>Accessible Web Designs</title>
+          <title>Blot AI</title>
           {/* ... other meta tags */}
         </Head>
         <Link rel="icon" href="/favicon.ico" />

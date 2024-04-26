@@ -4,6 +4,7 @@ import Block from '@/components/block';
 import Head from 'next/head';
 import PortfolioLogos from '@/components/PortfolioLogos';
 import Footer from '@/components/Footer';
+import PortfolioCarousel from '@/components/PortfolioCarousel';
 
 
 
@@ -59,8 +60,7 @@ const Portfolio = () => {
             </Head>
             <Navigation />
             <Block />
-
-
+            <PortfolioCarousel />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <PortfolioLogos logos={logos} />
             </main>

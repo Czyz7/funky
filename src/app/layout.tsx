@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Accessible Web Designs",
-  description: "Accessible Web Designs",
+  title: "Blot AI",
+  description: "Blot AI. Make your mark online with our AI solutions",
 };
 
 export default function RootLayout({
