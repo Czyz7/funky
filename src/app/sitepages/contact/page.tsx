@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import Head from 'next/head';
 
 // Inside your component's JSX:
-const App = () => {
+const ContactPage = () => {
     return (
         <Fragment>
             <Head>
@@ -29,4 +29,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default ContactPage;

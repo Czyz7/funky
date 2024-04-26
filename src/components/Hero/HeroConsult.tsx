@@ -36,7 +36,7 @@ const HeroConsult = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/laptop.png" alt="Hero consult" width={512} height={512} className="hero-consult" />
+                        <Image src="/Hero Images/consulting0.png" alt="Hero consult" width={512} height={512} className="hero-consult" />
                     </div>
                 </div>
             </div>

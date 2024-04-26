@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Navigation from '@/components/Navigation';
-import Block from '@/components/block';
+import Block from '@/components/Spacings/Block';
 import BlogServ from '@/components/ServiceForms/BlogServ';
 import Head from 'next/head';
 import HeroBlog from '@/components/Hero/HeroBlog';

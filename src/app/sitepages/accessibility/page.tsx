@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
-import Block from "@/components/block";
+import Block from '@/components/Spacings/Block';
 import AccessibilityPrice from '@/components/ServiceForms/AccessibilityPrice';
 import HeroAccess from "@/components/Hero/HeroAccess";
 import Footer from "@/components/Footer";

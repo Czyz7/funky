@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
-import Block from '@/components/block';
+import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import HeroWordPress from '@/components/Hero/HeroWordPress';
 import WordPressServ from '@/components/ServiceForms/WordPressServ';

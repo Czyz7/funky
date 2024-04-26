@@ -161,7 +161,7 @@ const ServiceGallery = () => {
                     <Link href="/sitepages/consult">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
-                                src="/Hero Images/compMstr.png"
+                                src="/Hero Images/consulting0.png"
                                 alt="Image Description"
                                 layout="fill"  // Fill the container
                                 objectFit="cover" // Adjust how the image fits

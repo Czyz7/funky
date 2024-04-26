@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
-import Block from '@/components/block';
+import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import HeroSeo from '@/components/Hero/HeroSeo';
 import SeoServ from '@/components/ServiceForms/SeoServ';

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import HeroBlog from '@/components/Hero/HeroBlog';
 import Navigation from '@/components/Navigation';
-import Block from '@/components/block';
+import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import BlogBlock from '@/components/Blog/BlogBlock';
 import Footer from '@/components/Footer';

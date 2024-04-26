@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import Navigation from "@/components/Navigation";
-import Block from "@/components/block";
+import Block from '@/components/Spacings/Block';
 import HeroCode from "@/components/Hero/HeroCode";
 import CodeServ from "@/components/ServiceForms/CodeServ";
 import Footer from "@/components/Footer";

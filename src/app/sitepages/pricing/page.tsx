@@ -1,5 +1,5 @@
 import Navigation from '@/components/Navigation';
-import Block from '@/components/block';
+import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import HeroPrice from '@/components/Hero/HeroPrice';
 import React, { Fragment } from 'react';

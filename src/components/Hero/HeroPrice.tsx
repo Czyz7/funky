@@ -36,7 +36,7 @@ const HeroPrice = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/laptop.png" alt="Hero price" width={512} height={512} className="hero-price" />
+                        <Image src="/Hero Images/price0.png" alt="Hero price" width={512} height={512} className="hero-price" />
                     </div>
                 </div>
             </div>

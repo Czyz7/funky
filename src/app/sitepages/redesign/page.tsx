@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
-import Block from '@/components/block';
+import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import RedesignServ from '@/components/ServiceForms/RedesignServ';
 import HeroRedesign from '@/components/Hero/HeroRedesign';
