@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
-import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import PortfolioLogos from '@/components/PortfolioLogos';
 import Footer from '@/components/Footer';
+import PortfolioBlock from '@/components/Spacings/PortfolioBlock';
 
 
 
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
             <Navigation />
-            <Block />
+            <PortfolioBlock />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <PortfolioLogos logos={logos} />
             </main>

@@ -5,6 +5,7 @@ import Head from 'next/head';
 import HeroWix from '@/components/Hero/HeroWix';
 import WixServ from '@/components/ServiceForms/WixServ';
 import Footer from '@/components/Footer';
+import WixBlock from '@/components/Spacings/wixBlock';
 
 const Wix = () => {
     return (
@@ -14,7 +15,7 @@ const Wix = () => {
                 <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
             <Navigation />
-            <Block />
+            <WixBlock />
             <HeroWix />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

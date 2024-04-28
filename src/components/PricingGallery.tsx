@@ -98,7 +98,7 @@ const ServiceGallery = () => {
                     <Link href="/sitepages/blogpost">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
-                                src="/Hero Images/techDude1.png"
+                                src="/Hero Images/blogRedesign0.png"
                                 alt="Image Description"
                                 layout="fill"  // Fill the container
                                 objectFit="cover" // Adjust how the image fits
@@ -140,7 +140,7 @@ const ServiceGallery = () => {
                     <Link href="/sitepages/accessibility">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
-                                src="/Hero Images/compMstr.png"
+                                src="/Hero Images/accessibility0.png"
                                 alt="Image Description"
                                 layout="fill"  // Fill the container
                                 objectFit="cover" // Adjust how the image fits

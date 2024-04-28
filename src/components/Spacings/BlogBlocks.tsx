@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ServiceBlock = () => {
+const BlogBlocks = () => {
     return (
         <section className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-24" >
             <div className="container mx-auto px-6">
-                <h2 className="text-4xl font-bold text-indigo-50 text-center m-12">Our Services</h2>
+                <h2 className="text-4xl font-bold text-indigo-50 text-center m-12">Blot AI Blog</h2>
                 <div className="flex flex-col md:flex-row justify-between items-center">
                 </div>
             </div>
@@ -12,4 +12,4 @@ const ServiceBlock = () => {
     );
 };
 
-export default ServiceBlock;
+export default BlogBlocks;

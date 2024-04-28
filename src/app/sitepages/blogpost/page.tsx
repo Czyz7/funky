@@ -5,6 +5,7 @@ import BlogServ from '@/components/ServiceForms/BlogServ';
 import Head from 'next/head';
 import HeroBlog from '@/components/Hero/HeroBlog';
 import Footer from "@/components/Footer";
+import BlogBlocks from "@/components/Spacings/BlogBlocks";
 
 const BlogPost = () => {
     return (
@@ -14,7 +15,7 @@ const BlogPost = () => {
                 <meta name="description" content="This is a filler page for the BlogPost page." />
             </Head>
             <Navigation />
-            <Block />
+            <BlogBlocks />
             <HeroBlog />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
                 <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

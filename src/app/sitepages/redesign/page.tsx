@@ -5,6 +5,7 @@ import Head from 'next/head';
 import RedesignServ from '@/components/ServiceForms/RedesignServ';
 import HeroRedesign from '@/components/Hero/HeroRedesign';
 import Footer from '@/components/Footer';
+import WebsiteRedesignBlock from '@/components/Spacings/webRedBlock';
 
 
 const Redesign = () => {
@@ -16,7 +17,7 @@ const Redesign = () => {
             </Head>
 
             <Navigation />
-            <Block />
+            <WebsiteRedesignBlock />
             <HeroRedesign />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

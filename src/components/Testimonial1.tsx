@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Block from './block';
+import Block from '@/components//Spacings/Block';
 
 const Testimonial1 = () => {
     return (

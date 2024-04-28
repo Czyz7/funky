@@ -1,10 +1,10 @@
 import Navigation from '@/components/Navigation';
-import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import HeroPrice from '@/components/Hero/HeroPrice';
 import React, { Fragment } from 'react';
 import PricingGallery from '@/components/PricingGallery';
 import Footer from '@/components/Footer';
+import PricingBlock from '@/components/Spacings/PricingBlock';
 
 const Pricing = () => {
     return (
@@ -14,7 +14,7 @@ const Pricing = () => {
                 <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
             <Navigation />
-            <Block />
+            <PricingBlock />
             <HeroPrice />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

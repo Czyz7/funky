@@ -5,6 +5,7 @@ import Head from 'next/head';
 import HeroManage from '@/components/Hero/HeroManage';
 import ManageServe from '@/components/ServiceForms/ManageServe';
 import Footer from '@/components/Footer';
+import WebsiteManagementBlock from '@/components/Spacings/webManBlock';
 
 
 
@@ -17,7 +18,7 @@ const Manage = () => {
                 <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
             <Navigation />
-            <Block />
+            <WebsiteManagementBlock />
             <HeroManage />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

@@ -5,6 +5,7 @@ import Head from 'next/head';
 import ConsultServ from '@/components/ServiceForms/ConsultServ';
 import HeroConsult from '@/components/Hero/HeroConsult';
 import Footer from '@/components/Footer';
+import ConsultingBlock from '@/components/Spacings/consultBlock';
 
 const Consult = () => {
     return (
@@ -15,7 +16,7 @@ const Consult = () => {
             </Head>
 
             <Navigation />
-            <Block />
+            <ConsultingBlock />
             <HeroConsult />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

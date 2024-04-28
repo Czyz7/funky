@@ -4,7 +4,7 @@ import HeroHome from '@/components/Hero/HeroHome';
 import Link from 'next/link';
 import React, { Fragment } from 'react';
 import Testimonial1 from '@/components/Testimonial1';
-import Block from '@/components/block';
+import Block from '@/components//Spacings/Block';
 import PortfolioLogos from '@/components/PortfolioLogos';
 import Footer from '@/components/Footer';
 

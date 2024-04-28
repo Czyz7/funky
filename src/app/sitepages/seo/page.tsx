@@ -5,6 +5,7 @@ import Head from 'next/head';
 import HeroSeo from '@/components/Hero/HeroSeo';
 import SeoServ from '@/components/ServiceForms/SeoServ';
 import Footer from '@/components/Footer';
+import SeoBlock from '@/components/Spacings/seoBlocks';
 
 const SEO = () => {
 
@@ -16,7 +17,7 @@ const SEO = () => {
             </Head>
 
             <Navigation />
-            <Block />
+            <SeoBlock />
             <HeroSeo />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">

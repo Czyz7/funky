@@ -8,7 +8,7 @@ const HeroSeo = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                        <h1 className="text-4xl font-bold mb-4 text-center">Digital AI Solutions</h1>
+                        <h1 className="text-4xl font-bold mb-4 text-center">Blot AI</h1>
 
                         <p className="text-l mb-4">Unlock the power of a captivating website and eye-catching graphics that will leave a lasting impression on your customers.</p>
 
@@ -36,7 +36,7 @@ const HeroSeo = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/Hero Images/wix0.png" alt="Hero image" width={512} height={512} className="hero-image" />
+                        <Image src="/Hero Images/seo0.png" alt="Hero image" width={512} height={512} className="hero-image" />
                     </div>
                 </div>
             </div>

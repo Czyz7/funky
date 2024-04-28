@@ -4,6 +4,7 @@ import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
 import Testimonial1 from '@/components/Testimonial1';
 import Footer from '@/components/Footer';
+import AboutBlock from '@/components/Spacings/AboutBlock';
 
 const About = () => {
 
@@ -14,7 +15,7 @@ const About = () => {
                 <meta name="description" content="Learn more about Accessible Web Designs and our mission to make the web accessible to everyone." />
             </Head>
             <Navigation />
-            <Block />
+            <AboutBlock />
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
 
                 <section className="container mx-auto px-4 bg-gray-800 rounded-lg w-full">

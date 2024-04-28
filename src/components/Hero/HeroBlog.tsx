@@ -8,7 +8,7 @@ const HeroBlog = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                        <h1 className="text-4xl font-bold mb-4 text-center">Digital AI Solutions</h1>
+                        <h1 className="text-4xl font-bold mb-4 text-center">Blot AI</h1>
 
                         <p className="text-l mb-4">Unlock the power of a captivating website and eye-catching graphics that will leave a lasting impression on your customers.</p>
 
@@ -36,7 +36,7 @@ const HeroBlog = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-2/5">
-                        <Image src="/laptop.png" alt="Hero Blog" width={512} height={512} className="hero-blog" />
+                        <Image src="/Hero Images/blogRedesign0.png" alt="Hero Blog" width={512} height={512} className="hero-blog" />
                     </div>
                 </div>
             </div>

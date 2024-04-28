@@ -5,6 +5,7 @@ import Head from 'next/head';
 import HeroWordPress from '@/components/Hero/HeroWordPress';
 import WordPressServ from '@/components/ServiceForms/WordPressServ';
 import Footer from '@/components/Footer';
+import WordPressBlock from '@/components/Spacings/wpBlock';
 
 const Wordpress = () => {
     return (
@@ -14,7 +15,7 @@ const Wordpress = () => {
                 <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
             <Navigation />
-            <Block />
+            <WordPressBlock />
             <HeroWordPress />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
