@@ -6,6 +6,9 @@ import ConsultServ from '@/components/ServiceForms/ConsultServ';
 import HeroConsult from '@/components/Hero/HeroConsult';
 import Footer from '@/components/Footer';
 import ConsultingBlock from '@/components/Spacings/consultBlock';
+import ConsultAIBlock from '@/components/Spacings/ConsultAIBlock';
+import AiConsultServe from '@/components/ServiceForms/AiConsultServe';
+import ConsultServBlock from '@/components/Spacings/ConsultServBlock';
 
 const Consult = () => {
     return (
@@ -20,10 +23,14 @@ const Consult = () => {
             <HeroConsult />
 
             <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Consulting Services</h1>
+                <ConsultAIBlock />
+                <Block />
+                <AiConsultServe />
+                <Block />
+                <ConsultServBlock />
                 <Block />
                 <ConsultServ />
-
+                <Block />
             </main>
             <Footer />
         </Fragment>
