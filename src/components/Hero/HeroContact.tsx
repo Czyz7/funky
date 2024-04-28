@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const HeroContact = () => {
     return (
-        <section className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20" >
+        <section className="text-black py-20" >
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="w-full md:w-3/5 mb-8 md:mb-0">

@@ -16,7 +16,7 @@ const About = () => {
             </Head>
             <Navigation />
             <AboutBlock />
-            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
+            <main className=" text-gray-800 py-20">
 
                 <section className="container mx-auto px-4 bg-gray-800 rounded-lg w-full">
                     <h1 className="text-4xl font-bold mb-8 text-white">Why use AI to solve your business needs?</h1>

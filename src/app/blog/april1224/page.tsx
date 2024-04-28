@@ -56,7 +56,7 @@ const April1224 = () => {
             </Head>
             <Navigation />
             <Block />
-            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
+            <main className=" text-black py-20">
                 <div className="container mx-auto  p-4"> {/* Container for blog content */}
                     <BlogTemplate
                         title={blogPost.title}

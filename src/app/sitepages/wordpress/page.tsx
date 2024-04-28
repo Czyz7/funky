@@ -18,8 +18,8 @@ const Wordpress = () => {
             <WordPressBlock />
             <HeroWordPress />
 
-            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for WordPress Website Development</h1>
+            <main className=" text-gray-800 py-20">
+                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-800">Pricing for WordPress Website Development</h1>
                 <Block />
                 <WordPressServ />
             </main>

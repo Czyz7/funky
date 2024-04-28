@@ -20,7 +20,7 @@ const Redesign = () => {
             <WebsiteRedesignBlock />
             <HeroRedesign />
 
-            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
+            <main className=" text-gray-800 py-20">
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Website Redesign Services</h1>
                 <Block />
                 <RedesignServ />

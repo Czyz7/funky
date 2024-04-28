@@ -7,6 +7,8 @@ import Testimonial1 from '@/components/Testimonial1';
 import Block from '@/components//Spacings/Block';
 import PortfolioLogos from '@/components/PortfolioLogos';
 import Footer from '@/components/Footer';
+import '@/app/globals.css'
+
 
 // ... other component imports
 const Portfolio = () => {
@@ -64,7 +66,7 @@ const Portfolio = () => {
         <Navigation />
         <Block />
         <HeroHome />
-        <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-9">
+        <main className="text-black py-9">
           {/* ... main content */}
           <Testimonial1 />
           <Block />

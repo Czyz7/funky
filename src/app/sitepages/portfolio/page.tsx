@@ -59,7 +59,7 @@ const Portfolio = () => {
             </Head>
             <Navigation />
             <PortfolioBlock />
-            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
+            <main className=" text-gray-800 py-20">
                 <PortfolioLogos logos={logos} />
             </main>
             <Footer />

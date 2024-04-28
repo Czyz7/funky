@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HeroPrice = () => {
     return (
-        <section className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20" >
+        <section className=" text-black py-20" >
             <div className=" px-5 md:px-10 lg:px-6 py-8 rounded-3xl bg-gray-800 ">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
