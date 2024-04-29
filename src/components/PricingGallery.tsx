@@ -6,7 +6,7 @@ const ServiceGallery = () => {
         <section className="text-gray-600 body-font">
             {/* ... (rest of your component) ... */}
             <div className="flex flex-wrap -m-4  grid-cols-4  ">
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/wordpress">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -20,8 +20,7 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">WordPress Development</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">WordPress Development</h2>
                             </div>
                         </div>
                     </Link>
@@ -31,7 +30,7 @@ const ServiceGallery = () => {
 
 
                 {/* ... (rest of your component) ... */}
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/wix">
                         <div className="p-20 rounded-lg bg-center "> {/* Make the container relative */}
                             <Image
@@ -45,14 +44,13 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Wix Development</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">Wix Development</h2>
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/manage">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -66,14 +64,13 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Website Management</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">Website Management</h2>
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/redesign">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -87,14 +84,13 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Website Redesign</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-sky-600 font-medium mb-2">Website Redesign</h2>
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/blogpost">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -108,14 +104,13 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Blog Post Generation</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">Blog Post Generation</h2>
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/seo">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -129,14 +124,13 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">SEO</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">SEO</h2>
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/accessibility">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -150,14 +144,13 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Accessibility</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">Accessibility</h2>
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-500 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
+                <div className="xl:w-1/4 md:w-1/2 p-20 rounded-lg opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 hover:bg-indigo-500">
                     <Link href="/sitepages/consult">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
@@ -171,8 +164,7 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h3 className="tracking-widest text-indigo-500 text-sm font-medium title-font">AI Assisted</h3>
-                                <h2 className="text-lg text-indigo-50 font-medium title-font mb-2 ">Consulting</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-indigo-50 font-medium mb-2 ">Consulting</h2>
                             </div>
                         </div>
                     </Link>
