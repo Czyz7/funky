@@ -4,6 +4,10 @@ import Head from 'next/head';
 import PortfolioLogos from '@/components/PortfolioLogos';
 import Footer from '@/components/Footer';
 import PortfolioBlock from '@/components/Spacings/PortfolioBlock';
+import PortfolioScroll from '@/components/PortfolioScroll';
+import HeroPortfolio from '@/components/Hero/HeroPortfolio';
+import Block from '@/components/Spacings/Block';
+
 
 
 
@@ -59,6 +63,9 @@ const Portfolio = () => {
             </Head>
             <Navigation />
             <PortfolioBlock />
+            <HeroPortfolio />
+            <Block />
+            <PortfolioScroll />
             <main className=" text-gray-800 py-20">
                 <PortfolioLogos logos={logos} />
             </main>

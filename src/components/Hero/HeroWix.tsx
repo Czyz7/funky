@@ -29,7 +29,7 @@ const HeroWix = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-2/5">
-                            <Image src="/Hero Images/services0.png" alt="Hero serve" width={512} height={512} className="hero-serve" />
+                            <Image src="/Hero Images/wix1.png" alt="Hero serve" width={512} height={512} className="hero-serve" />
                         </div>
                     </div>
                 </div>

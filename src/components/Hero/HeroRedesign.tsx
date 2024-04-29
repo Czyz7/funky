@@ -30,7 +30,7 @@ const HeroRedesign = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-2/5">
-                            <Image src="/Hero Images/webManage.png" alt="Hero serve" width={512} height={512} className="hero-serve" />
+                            <Image src="/Hero Images/webRed0.png" alt="Hero serve" width={512} height={512} className="hero-serve" />
                         </div>
                     </div>
                 </div>

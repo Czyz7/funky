@@ -10,10 +10,10 @@ const ServiceGallery = () => {
                     <Link href="/sitepages/wordpress">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
-                                src="/Hero Images/wpEr.png"
+                                src="/Hero Images/wordP0.png"
                                 alt="Image Description"
                                 layout="fill"  // Fill the container
-                                objectFit="cover" // Adjust how the image fits
+                                objectPosition="top" // Adjust how the image fits
                                 quality={100}
                                 className='absolute inset-0'
                                 priority={true} // Prioritize this image for loading (optional)
@@ -35,7 +35,7 @@ const ServiceGallery = () => {
                     <Link href="/sitepages/wix">
                         <div className="p-20 rounded-lg bg-center "> {/* Make the container relative */}
                             <Image
-                                src="/Hero Images/wix0.png"
+                                src="/Hero Images/wix1.png"
                                 alt="Image Description"
                                 layout="fill"  // Fill the container
                                 objectFit="cover" // Adjust how the image fits
@@ -77,7 +77,7 @@ const ServiceGallery = () => {
                     <Link href="/sitepages/redesign">
                         <div className="p-20 rounded-lg bg-cover bg-center "> {/* Make the container relative */}
                             <Image
-                                src="/Hero Images/web0.png"
+                                src="/Hero Images/webRed0.png"
                                 alt="Image Description"
                                 layout="fill"  // Fill the container
                                 objectFit="cover" // Adjust how the image fits
