@@ -7,8 +7,8 @@ const BlogBlock = () => {
         <section className="text-gray-600 body-font overflow-hidden">
             <div className="container px-5 py-24 mx-auto grid grid-cols-2 gap-8" >
                 <div className="p-12 flex flex-col bg-gray-800 rounded-3xl items-start mx-auto ">
-                    <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">CATEGORY</span>
-                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+                    <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">Wix</span>
+                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Web Design in 2024, cornhole vape</h2>
                     <p className="leading-relaxed text-indigo-50 mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90/s, slow-carb etsy tumeric.</p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <Link href="/blog/april1224" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">
@@ -38,8 +38,8 @@ const BlogBlock = () => {
                     </Link>
                 </div>
                 <div className="p-12 flex flex-col bg-gray-800 rounded-3xl items-start mx-auto ">
-                    <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">CATEGORY</span>
-                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+                    <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">SEO</span>
+                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Wix in 2024 out, cornhole vape</h2>
                     <p className="leading-relaxed text-indigo-50 mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90/s, slow-carb etsy tumeric.</p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <Link href="/blog/april1224" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">

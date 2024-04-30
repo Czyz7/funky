@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Testimonial1 from '@/components/Testimonial1';
 import Footer from '@/components/Footer';
 import AboutBlock from '@/components/Spacings/AboutBlock';
+import HeroAbout from '@/components/Hero/HeroAbout';
 
 const About = () => {
 
@@ -16,6 +17,7 @@ const About = () => {
             </Head>
             <Navigation />
             <AboutBlock />
+            <HeroAbout />
             <main className=" text-gray-800 py-20">
 
                 <section className="container mx-auto px-4 bg-gray-800 rounded-lg w-full">

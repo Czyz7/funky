@@ -84,7 +84,7 @@ const ServiceGallery = () => {
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
                                 {/* Overlay your content on top of the image */}
-                                <h2 className="border-b-2 border-indigo-50 text-xl text-sky-600 font-medium mb-2">Website Redesign</h2>
+                                <h2 className="border-b-2 border-indigo-50 text-xl text-sky-600 font-bold mb-2">Website Redesign</h2>
                             </div>
                         </div>
                     </Link>

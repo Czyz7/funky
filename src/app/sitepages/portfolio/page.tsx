@@ -14,44 +14,40 @@ import Block from '@/components/Spacings/Block';
 const Portfolio = () => {
     const logos = [
         {
-            alt: 'Logo 1',
+            alt: 'Maries Kaliedoscope Lupus Non Profit Foundation',
             src: '/mkLogo.webp',
             href: 'https://www.mk.com/',
         },
         {
-            alt: 'Logo 2',
+            alt: 'Protect Your Glory E-Commerce Store',
             src: '/pygLogo.webp',
             href: 'https://www.pygapparel.com',
         },
         {
-            alt: 'Logo 3',
+            alt: 'Financial Harmony Tax Resolution',
             src: '/fhtrLogo.png',
             href: 'https://www.mk.com/',
         },
         {
-            alt: 'Logo 1',
+            alt: 'Digital Mindmeld',
             src: '/dmmLogo.png',
             href: 'https://www.mk.com/',
         },
         {
-            alt: 'Logo 2',
+            alt: 'Dogware LLC Dog Leash Company',
             src: '/dogwareLogo.png',
         },
         {
-            alt: 'Logo 3',
-            src: '/laptop.png',
+            alt: 'What&#39;s Cookin?',
+            src: '/whatCookin1.png',
         },
         {
-            alt: 'Logo 1',
-            src: '/laptop.png',
+            alt: 'Accessible Web Designs',
+            src: '/awd.png',
         },
         {
-            alt: 'Logo 2',
-            src: '/laptop.png',
-        },
-        {
-            alt: 'Logo 3',
-            src: '/laptop.png',
+            alt: 'Culture Gym',
+            src: '/cultureGym.png',
         },
     ];
 
@@ -67,6 +63,7 @@ const Portfolio = () => {
             <Block />
             <PortfolioScroll />
             <main className=" text-gray-800 py-20">
+                <Block />
                 <PortfolioLogos logos={logos} />
             </main>
             <Footer />

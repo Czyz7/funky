@@ -8,6 +8,10 @@ import Block from '@/components//Spacings/Block';
 import PortfolioLogos from '@/components/PortfolioLogos';
 import Footer from '@/components/Footer';
 import '@/app/globals.css'
+import BlogBlock from '@/components/Blog/BlogBlock';
+import BlogBlocks from '@/components/Spacings/BlogBlocks';
+import PortfolioBlock from '@/components/Spacings/PortfolioBlock';
+import PortfolioScroll from '@/components/PortfolioScroll';
 
 
 // ... other component imports
@@ -38,20 +42,16 @@ const Portfolio = () => {
       src: '/dogwareLogo.png',
     },
     {
-      alt: 'Something',
-      src: '/laptop.png',
+      alt: 'What&#39;s Cookin?',
+      src: '/whatCookin1.png',
     },
     {
-      alt: 'Blah Blah',
-      src: '/laptop.png',
+      alt: 'Accessible Web Designs',
+      src: '/awd.png',
     },
     {
-      alt: 'Yada Yada',
-      src: '/laptop.png',
-    },
-    {
-      alt: 'Yeah Sure',
-      src: '/laptop.png',
+      alt: 'Culture Gym',
+      src: '/cultureGym.png',
     },
   ];
 
@@ -68,7 +68,16 @@ const Portfolio = () => {
         <HeroHome />
         <main className="text-black py-9">
           {/* ... main content */}
+          <BlogBlocks />
+          <BlogBlock />
+          <Block />
           <Testimonial1 />
+          <Block />
+          <PortfolioBlock />
+          <Block />
+          <PortfolioScroll />
+          <Block />
+          <Block />
           <Block />
           <PortfolioLogos logos={logos} />
         </main>

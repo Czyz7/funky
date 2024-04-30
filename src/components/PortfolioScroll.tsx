@@ -2,67 +2,75 @@ import Image from 'next/image';
 
 const PortfolioScroll = () => {
     return (
-        <div className="px-5 md:px-10 lg:px-24 py-10 rounded-3xl bg-gray-800 ">
-            <div dir="ltr" className="snap-x snap-mandatory overflow-x-scroll scrollbar-hide h-100 bg-gray-800 ">
-                <div className="snap-container snap-always flex space-x-6 h-100 bg-gray-800">
-                    <div className="snap-center min-w-[512px] overflow-hidden hover:scale-x-110 hover:scale-y-110 transition-transform duration-300 "> {/* Added snap-center and min-w-[300px] */}
+        <div className=" px-5 md:px-10 lg:px-24 py-10 rounded-3xl bg-gray-800 ">
+            <div dir="ltr" className="snap-x snap-mandatory overflow-x-scroll bg-gray-800 scrollbar-hide ">
+                <div className="snap-container snap-always flex space-x-6 h-100 bg-gray-800 scrollbar-hide xl:w-1/4 md:w-1/2 p-20 rounded-lg  ">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 "> {/* Added snap-center and min-w-[300px] */}
                         <Image
                             src="/portfolioImages/pyg0.png"
                             alt="Hero serve"
-                            width={512}
-                            height={512}
-
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
-                    <div className="snap-center min-w-[512px]  hover:scale-x-110 hover:scale-y-110 transition-transform duration-300 ">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125 ">
                         <Image
                             src="/portfolioImages/dM0.png"
-                            alt="Hero serve" width={512} height={512}
+                            alt="Hero serve"
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
-                    <div className="snap-center min-w-[512px]  hover:scale-x-110 hover:scale-y-110 transition-transform duration-300">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125">
 
                         <Image
                             src="/portfolioImages/dogWare0.png"
                             alt="Hero serve"
-                            width={512}
-                            height={512}
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
-                    <div className="snap-center min-w-[512px]  hover:scale-x-110 hover:scale-y-110 transition-transform duration-300">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125">
 
                         <Image
-                            src="/portfolioImages/finHarmony1.png"
+                            src="/portfolioImages/taxRes0.png"
                             alt="Hero serve"
-                            width={512}
-                            height={512}
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
-                    <div className="snap-center min-w-[512px]  hover:scale-x-110 hover:scale-y-110 transition-transform duration-300">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125">
 
                         <Image
                             src="/portfolioImages/mk4l.png"
                             alt="Hero serve"
-                            width={512}
-                            height={512}
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
-                    <div className="snap-center min-w-[512px]  hover:scale-x-110 hover:scale-y-110 transition-transform duration-300">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125">
 
                         <Image
-                            src="/portfolioImages/whatsCookin0.png"
+                            src="/portfolioImages/whatCook0.png"
                             alt="Hero serve"
-                            width={512}
-                            height={512}
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
-                    <div className="snap-center min-w-[512px]  hover:scale-x-110 hover:scale-y-110 transition-transform duration-300">
+                    <div className="snap-center min-w-[720px] overflow-hidden opacity-75 transform transition duration-700 ease-in-out hover:opacity-100 hover:scale-125">
 
                         <Image
                             src="/portfolioImages/poa0.png"
                             alt="Hero serve"
-                            width={512}
-                            height={100}
+                            width={720}
+                            height={720}
+                            layout="contain"
                         />
                     </div>
 
