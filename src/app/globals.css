@@ -33,6 +33,9 @@ body {
     margin-top: 25px;
     margin-left: 0px;
   }
+  .mobile-menu {
+    display: none;
+  }
 }
 
 /* Tablet styles */

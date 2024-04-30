@@ -5,7 +5,7 @@ const Testimonial1 = () => {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
-                <h1 className="text-4xl font-bold title-font text-gray-900 text-center">Testimonials</h1>
+                <h1 className="text-5xl font-bold title-font text-gray-900 text-center">Testimonials</h1>
                 <Block />
                 <Block />
                 <div className="flex flex-wrap -m-4">

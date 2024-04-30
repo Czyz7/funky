@@ -9,13 +9,13 @@ const HeroOffer = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                            <h1 className="text-3xl text-white font-bold h-48 text-center">AI Powered Solutions. Better Results. Faster.</h1>
+                            <h1 className="text-4xl text-white font-bold h-48 text-center">AI Powered Solutions. Better Results. Faster.</h1>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">Elevate your online presence with cutting-edge AI technology.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Elevate your online presence with cutting-edge AI technology.</p>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">We optimize your website&#39;s development, content, and strategy.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We optimize your website&#39;s development, content, and strategy.</p>
 
-                            <p className="text-l text-center h-28 text-indigo-50 mb-4">Delivering measurable success at unparalleled speed.</p>
+                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Delivering measurable success at unparalleled speed.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <Link href="/sitepages/offer">

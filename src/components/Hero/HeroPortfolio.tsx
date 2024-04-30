@@ -9,13 +9,13 @@ const HeroPortfolio = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                            <h1 className="text-3xl text-white font-bold h-48 text-center">Smarter Website Care with AI</h1>
+                            <h1 className="text-4xl text-white font-bold h-48 text-center">Smarter Website Care with AI</h1>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">AI handles the technical busywork.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">AI handles the technical busywork.</p>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">Our experts leverage intelligent tools for proactive monitoring, updates, and enhancements.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Our experts leverage intelligent tools for proactive monitoring, updates, and enhancements.</p>
 
-                            <p className="text-l text-center h-28 text-indigo-50 mb-4">Experience the difference of AI-powered management and a website that thrives.</p>
+                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Experience the difference of AI-powered management and a website that thrives.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <button className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">

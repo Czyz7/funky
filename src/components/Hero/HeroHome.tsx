@@ -8,13 +8,13 @@ const HeroSection = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                            <h1 className="text-3xl text-white font-bold h-48 text-center">Transform Your Web Presence. Effortlessly.</h1>
+                            <h1 className="text-4xl text-white font-bold h-48 text-center">Transform Your Web Presence. Effortlessly.</h1>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">We harness the power of AI to understand your vision and deliver results that exceed expectations</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We harness the power of AI to understand your vision and deliver results that exceed expectations</p>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">Our AI-powered tools streamline website development, content creation, and optimization.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Our AI-powered tools streamline website development, content creation, and optimization.</p>
 
-                            <p className="text-l text-center h-28 text-indigo-50 mb-4">Free your time for focusing on your business and lay the foundation for continuous growth and success online.</p>
+                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Free your time for focusing on your business and lay the foundation for continuous growth and success online.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <Link href="/sitepages/offer">

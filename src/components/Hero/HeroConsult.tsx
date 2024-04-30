@@ -8,13 +8,13 @@ const HeroConsult = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                            <h1 className="text-3xl text-white font-bold h-48 text-center">Your AI-Powered Success Partner</h1>
+                            <h1 className="text-4xl text-white font-bold h-48 text-center">Your AI-Powered Success Partner</h1>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">We collaborate with you to achieve your unique business goals.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We collaborate with you to achieve your unique business goals.</p>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">Optimize your website, enhance visibility, and deliver exceptional user experiences.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Optimize your website, enhance visibility, and deliver exceptional user experiences.</p>
 
-                            <p className="text-l text-center h-28 text-indigo-50 mb-4"> Let&#39;s transform your online presence with cutting edge AI solutions.</p>
+                            <p className="text-lg text-center h-28 text-indigo-50 mb-4"> Let&#39;s transform your online presence with cutting edge AI solutions.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <button className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">

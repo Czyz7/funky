@@ -8,13 +8,13 @@ const HeroSeo = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                            <h1 className="text-3xl text-white font-bold h-48 text-center">Unleash the Power of AI for SEO</h1>
+                            <h1 className="text-4xl text-white font-bold h-48 text-center">Unleash the Power of AI for SEO</h1>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">We harness advanced AI models like Vertex AI for precision keyword research and strategic optimization.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We harness advanced AI models like Vertex AI for precision keyword research and strategic optimization.</p>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">This ensures your website ranks higher and attracts more qualified traffic.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">This ensures your website ranks higher and attracts more qualified traffic.</p>
 
-                            <p className="text-l text-center h-28 text-indigo-50 mb-4">Experience unparalleled SEO results with AI.</p>
+                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Experience unparalleled SEO results with AI.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <button className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">

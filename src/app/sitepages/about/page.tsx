@@ -50,6 +50,7 @@ const About = () => {
                 </section>
                 <Block />
                 <Testimonial1 />
+                <Block />
             </main>
             <Footer />
         </Fragment>

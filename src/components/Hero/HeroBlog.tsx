@@ -8,13 +8,13 @@ const HeroBlog = () => {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
-                            <h1 className="text-3xl text-white font-bold h-48 text-center">Elevate Your Content Strategy with AI</h1>
+                            <h1 className="text-4xl text-white font-bold h-48 text-center">Elevate Your Content Strategy with AI</h1>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">Generate high-quality, SEO-optimized blog posts in record time.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Generate high-quality, SEO-optimized blog posts in record time.</p>
 
-                            <p className="text-l text-center h-6 text-indigo-50 mb-4">AI handles the research and writing basics.</p>
+                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">AI handles the research and writing basics.</p>
 
-                            <p className="text-l text-center h-28 text-indigo-50 mb-4">This lets you focus on refining your message and engaging your audience.</p>
+                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">This lets you focus on refining your message and engaging your audience.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <button className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">

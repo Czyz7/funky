@@ -22,7 +22,7 @@ const Manage = () => {
             <HeroManage />
 
             <main className=" text-gray-800 py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Website Management Services</h1>
+                <h1 className="sm:text-4xl text-5xl title-font font-bold text-center mb-2 text-gray-900">Pricing for Website Management Services</h1>
                 <Block />
                 <ManageServe />
             </main>
