@@ -6,10 +6,6 @@ const ManageServ: React.FC = () => {
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-4xl text-5xl font-bold title-font mb-2 text-gray-900">Pricing</h1>
-                    <div className="flex mx-auto border-2 border-gray-800 rounded overflow-hidden mt-6">
-                        <button className="py-1 px-4 bg-sk text-white focus:outline-none">Monthly</button>
-                        <button className="py-1 px-4 focus:outline-none">Annually</button>
-                    </div>
                 </div>
                 <div className="flex flex-wrap justify-center mx-auto">
                     <div className="p-2 xl:w-1/4 md:w-1/2 w-full">
@@ -65,8 +61,6 @@ const ManageServ: React.FC = () => {
                             </button>
                             <br>
                             </br>
-
-                            <p className="text-xs text-gray-400 mt-3">Literally you probably haven/t heard of them jean shorts.</p>
                             <br>
                             </br>
                         </div>
@@ -140,7 +134,6 @@ const ManageServ: React.FC = () => {
 
                             <br>
                             </br>
-                            <p className="text-xs text-gray-400 mt-3">Literally you probably haven/t heard of them jean shorts.</p>
                             <br>
                             </br>
                         </div>
@@ -211,7 +204,6 @@ const ManageServ: React.FC = () => {
                             </button>
                             <br>
                             </br>
-                            <p className="text-xs text-gray-400 mt-3">Literally you probably haven/t heard of them jean shorts.</p>
                             <br>
                             </br>
                         </div>

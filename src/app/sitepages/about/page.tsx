@@ -18,6 +18,7 @@ const About = () => {
             <Navigation />
             <AboutBlock />
             <HeroAbout />
+            <Block />
             <main className=" text-gray-800 py-20">
 
                 <section className="container mx-auto px-4 bg-gray-800 rounded-lg w-full">

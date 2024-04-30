@@ -55,8 +55,6 @@ const ConsultServ: React.FC = () => {
                         </button>
                         <br>
                         </br>
-
-                        <p className="text-xs text-gray-400 mt-3">Literally you probably haven/t heard of them jean shorts.</p>
                         <br>
                         </br>
                     </div>
@@ -122,7 +120,6 @@ const ConsultServ: React.FC = () => {
 
                         <br>
                         </br>
-                        <p className="text-xs text-gray-400 mt-3">Literally you probably haven/t heard of them jean shorts.</p>
                         <br>
                         </br>
                     </div>
@@ -176,7 +173,6 @@ const ConsultServ: React.FC = () => {
                         </button>
                         <br>
                         </br>
-                        <p className="text-xs text-gray-400 mt-3">Literally you probably haven/t heard of them jean shorts.</p>
                         <br>
                         </br>
                     </div>
