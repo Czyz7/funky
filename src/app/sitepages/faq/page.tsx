@@ -1,7 +1,10 @@
 import React, { Fragment } from 'react';
 import Navigation from '@/components/Navigation';
-import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
+import FaqBlock from '@/components/Spacings/FaqBlock';
+
+import Footer from '@/components/Footer';
+import WordPressFaq from '@/components/Faq/WordPressFaq';
 
 const Faq = () => {
     return (
@@ -11,14 +14,13 @@ const Faq = () => {
                 <meta name="description" content="This is a filler page for the SEO page." />
             </Head>
             <Navigation />
-            <Block />
-
-            <main className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-black py-20">
-                <h1>SEO Page</h1>
-                <p>
-                    This is a filler page for the Faq page.
-                </p>
+            <FaqBlock />
+            <main className=" text-gray-800 py-20">
+                <div className="p-10 rounded-lg">
+                    <WordPressFaq />
+                </div>
             </main>
+            <Footer />
         </Fragment>
     );
 };

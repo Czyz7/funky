@@ -6,6 +6,10 @@ import Head from 'next/head';
 import HeroBlog from '@/components/Hero/HeroBlog';
 import Footer from "@/components/Footer";
 import BlogBlocks from "@/components/Spacings/BlogBlocks";
+import BlogPostFaq0 from "@/components/Faq/BlogPostFaq0";
+import BlogPostFaq1 from "@/components/Faq/BlogPostFaq1";
+import BlogPostFaq2 from "@/components/Faq/BlogPostFaq2";
+import BlogPostFaq3 from "@/components/Faq/BlogPostFaq3";
 
 const BlogPost = () => {
     return (
@@ -18,11 +22,18 @@ const BlogPost = () => {
             <BlogBlocks />
             <HeroBlog />
             <main className=" text-gray-800 py-20">
-                <main className=" text-gray-800 py-20">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Blog Post Generation Services</h1>
-                    <Block />
-                    <BlogServ />
-                </main>
+                <Block />
+                <h1 className="text-5xl font-bold title-font text-center mb-2 text-gray-900">Pricing for Blog Post Generation Services</h1>
+                <Block />
+                <Block />
+                <BlogServ />
+                <Block />
+                <div className="p-10 rounded-lg">
+                    <BlogPostFaq0 />
+                    <BlogPostFaq1 />
+                    <BlogPostFaq2 />
+                    <BlogPostFaq3 />
+                </div>
             </main>
             <Footer />
         </Fragment>

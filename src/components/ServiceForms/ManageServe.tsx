@@ -4,9 +4,6 @@ const ManageServ: React.FC = () => {
     return (
         <section className="text-gray-600 body-font overflow-hidden">
             <div className="container px-5 py-24 mx-auto">
-                <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="sm:text-4xl text-5xl font-bold title-font mb-2 text-gray-900">Pricing</h1>
-                </div>
                 <div className="flex flex-wrap justify-center mx-auto">
                     <div className="p-2 xl:w-1/4 md:w-1/2 w-full">
                         <div className="h-full p-6 rounded-lg border-2 bg-gray-800 border-gray-300 flex flex-col relative overflow-hidden">

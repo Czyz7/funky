@@ -107,6 +107,12 @@ const Footer = () => {
                             </li>
                             <br />
                             <li>
+                                <Link href="/sitepages/faq" className="text-white hover:text-white">
+                                    FAQ
+                                </Link>
+                            </li>
+                            <br />
+                            <li>
                                 <Link href="/sitepages/contact" className="text-white hover:text-white">
                                     Contact
                                 </Link>

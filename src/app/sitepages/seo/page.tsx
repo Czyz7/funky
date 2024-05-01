@@ -21,12 +21,13 @@ const SEO = () => {
             <HeroSeo />
 
             <main className=" text-gray-800 py-20">
-
                 <Block />
-
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing for Keyword Research Services</h1>
+                <h1 className="text-5xl font-bold title-font text-center mb-2 text-gray-900">Pricing for Keyword Research Services</h1>
                 <Block />
                 <SeoServ />
+                <div className="p-10 rounded-lg">
+
+                </div>
             </main>
             <Footer />
         </Fragment>

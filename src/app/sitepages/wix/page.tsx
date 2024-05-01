@@ -6,6 +6,12 @@ import HeroWix from '@/components/Hero/HeroWix';
 import WixServ from '@/components/ServiceForms/WixServ';
 import Footer from '@/components/Footer';
 import WixBlock from '@/components/Spacings/wixBlock';
+import WixFaq from '@/components/Faq/WixFaq';
+import FaqBlock from '@/components/Spacings/FaqBlock';
+import WordPressFaq1 from '@/components/Faq/WordPressFaq1';
+import WixFaq0 from '@/components/Faq/WixFaq0';
+import WixFaq1 from '@/components/Faq/WixFaq1';
+import WordPressFaq0 from '@/components/Faq/WordPressFaq0';
 
 const Wix = () => {
     return (
@@ -17,11 +23,24 @@ const Wix = () => {
             <Navigation />
             <WixBlock />
             <HeroWix />
-
+            <Block />
             <main className=" text-gray-800 py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-800">Pricing for Wix Website Development</h1>
+                <h1 className="text-5xl font-bold text-center mb-2 text-gray-800">Pricing for Wix Website Development</h1>
+                <Block />
                 <Block />
                 <WixServ />
+                <Block />
+                <div className='p-10 rounded-lg'>
+                    <FaqBlock />
+                    <Block />
+                    <WixFaq />
+                    <WordPressFaq0 />
+                    <WordPressFaq1 />
+                    <WixFaq0 />
+                    <WixFaq1 />
+                </div>
+                <Block />
+                <Block />
             </main>
             <Footer />
         </Fragment>

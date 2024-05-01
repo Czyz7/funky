@@ -6,6 +6,14 @@ import HeroWordPress from '@/components/Hero/HeroWordPress';
 import WordPressServ from '@/components/ServiceForms/WordPressServ';
 import Footer from '@/components/Footer';
 import WordPressBlock from '@/components/Spacings/wpBlock';
+import WordPressFaq from '@/components/Faq/WordPressFaq';
+import WordPressFaq0 from '@/components/Faq/WordPressFaq0';
+import WordPressFaq1 from '@/components/Faq/WordPressFaq1';
+import FaqBlock from '@/components/Spacings/FaqBlock';
+import WordPressFaq2 from '@/components/Faq/WordPressFaq2';
+import WordPressFaq3 from '@/components/Faq/WordPressFaq3';
+
+
 
 const Wordpress = () => {
     return (
@@ -17,11 +25,24 @@ const Wordpress = () => {
             <Navigation />
             <WordPressBlock />
             <HeroWordPress />
-
+            <Block />
             <main className=" text-gray-800 py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-800">Pricing for WordPress Website Development</h1>
+                <h1 className="text-5xl font-bold title-font text-center mb-2 text-gray-800">Pricing for WordPress Website Development</h1>
+                <Block />
                 <Block />
                 <WordPressServ />
+                <Block />
+                <div className='p-10 rounded-lg'>
+                    <FaqBlock />
+                    <Block />
+                    <WordPressFaq />
+                    <WordPressFaq0 />
+                    <WordPressFaq1 />
+                    <WordPressFaq3 />
+                    <WordPressFaq2 />
+                    <Block />
+                    <Block />
+                </div>
             </main>
             <Footer />
         </Fragment>
