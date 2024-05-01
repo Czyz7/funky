@@ -13,9 +13,12 @@ const About = () => {
     return (
         <Fragment>
             <Head>
-                <title>About Us | Vegas AI Solutions</title>
-                <meta name="description" content="Learn more about Accessible Web Designs and our mission to make the web accessible to everyone." />
+                <title>About Us | Blot AI</title>
+                <meta name="description" content="Las Vegas web development experts at Blot AI. We harness advanced AI solutions to transform your website into a powerful growth engine. Wix, WordPress, SEO, and more - let's upgrade your web presence!" />
+                <meta name="keywords" content="Las Vegas web development, AI web development, Wix development, WordPress development, SEO, digital marketing, website design, website development" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <AboutBlock />
             <HeroAbout />

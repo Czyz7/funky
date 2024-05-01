@@ -36,8 +36,10 @@ const Faq = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>FAQs | Blot AI</title>
+                <meta name="description" content="Find answers to frequently asked questions about Blot AI's web development, SEO, and digital marketing services in Las Vegas. Get the information you need to make informed decisions for your business." />
+                <meta name="keywords" content="FAQs, Blot AI, Las Vegas, web development, SEO, digital marketing" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
             <Navigation />
             <FaqBlock />

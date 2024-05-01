@@ -17,9 +17,12 @@ const Wix = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>Wix Development | Blot AI</title>
+                <meta name="description" content="Our Wix development services in Las Vegas help businesses create beautiful, functional, and effective websites. We offer a range of services to meet your needs, including Wix website design, development, and maintenance." />
+                <meta name="keywords" content="Wix development, Wix website design, Wix website development, Wix website maintenance, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <WixBlock />
             <HeroWix />

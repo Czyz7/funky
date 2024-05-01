@@ -12,9 +12,12 @@ const ContactPage = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>Contact Us | Blot AI</title>
+                <meta name="description" content="Contact Blot AI in Las Vegas for all your web development, SEO, and digital marketing needs. We're here to help you achieve your business goals online." />
+                <meta name="keywords" content="contact us, Blot AI, Las Vegas, web development, SEO, digital marketing" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <div>
 
                 {/* Other content of your page */}

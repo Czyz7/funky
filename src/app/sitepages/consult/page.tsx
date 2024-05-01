@@ -17,10 +17,11 @@ const Consult = () => {
     return (
         <Fragment>
             <Head>
-                <title>Consulting Services | Accessible Web Designs</title>
-                <meta name="description" content="Blah Blah" />
+                <title>Consulting Services | Blot AI</title>
+                <meta name="description" content="Our consulting services help businesses in Las Vegas develop and implement effective digital strategies. We provide a range of services to help you achieve your business goals, including AI consulting, website design and development consulting, SEO consulting, and digital accessibility consulting." />
+                <meta name="keywords" content="consulting services, business consulting, digital strategy, AI consulting, website design consulting, website development consulting, SEO consulting, digital accessibility consulting, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
-
             <Navigation />
             <ConsultingBlock />
             <HeroConsult />

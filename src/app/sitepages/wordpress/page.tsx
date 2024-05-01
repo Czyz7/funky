@@ -19,9 +19,12 @@ const Wordpress = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>WordPress Development | Blot AI</title>
+                <meta name="description" content="Our WordPress development services in Las Vegas help businesses create beautiful, functional, and effective websites. We offer a range of services to meet your needs, including WordPress website design, development, and maintenance." />
+                <meta name="keywords" content="WordPress development, WordPress website design, WordPress website development, WordPress website maintenance, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <WordPressBlock />
             <HeroWordPress />

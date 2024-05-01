@@ -14,9 +14,12 @@ const Redesign = () => {
     return (
         <Fragment>
             <Head>
-                <title>Consulting Services | Accessible Web Designs</title>
-                <meta name="description" content="Blah Blah" />
+                <title>Website Redesign Services | Blot AI</title>
+                <meta name="description" content="Our website redesign services in Las Vegas help businesses create beautiful, functional, and effective websites. We offer a range of services to meet your needs, including website redesign, development, and maintenance." />
+                <meta name="keywords" content="website redesign, website redesign services, website development, website maintenance, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
 
             <Navigation />
             <WebsiteRedesignBlock />

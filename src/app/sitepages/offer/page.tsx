@@ -11,9 +11,12 @@ const Offer = () => {
     return (
         <Fragment>
             <Head>
-                <title>All Services</title>
-                <meta name="description" content="I offer a range of coding services, including web development, mobile development, and data science." />
+                <title>Services | Blot AI</title>
+                <meta name="description" content="Blot AI offers a comprehensive range of web development, SEO, and digital marketing services in Las Vegas. Our services are designed to help businesses achieve their online goals and grow their businesses." />
+                <meta name="keywords" content="web development, SEO, digital marketing, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <ServiceBlock />
             <HeroOffer />

@@ -16,9 +16,12 @@ const SEO = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>SEO Services | Blot AI</title>
+                <meta name="description" content="Our SEO services in Las Vegas help businesses improve their visibility and ranking in search engine results pages (SERPs). We offer a range of services to meet your needs, including SEO audits, keyword research, and link building." />
+                <meta name="keywords" content="SEO services, SEO audit, keyword research, link building, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
 
             <Navigation />
             <SeoBlock />

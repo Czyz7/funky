@@ -15,9 +15,12 @@ const BlogPost = () => {
     return (
         <Fragment>
             <Head>
-                <title>Blog Post | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the BlogPost page." />
+                <title>Blog Post Generation Services | Blot AI</title>
+                <meta name="description" content="Our Blog Post Generation Services use advanced AI to create high-quality, SEO-optimized blog posts that will help you attract more traffic to your website and improve your search engine rankings. We offer a range of services to meet your needs, including blog post writing, editing, and optimization." />
+                <meta name="keywords" content="blog post generation, AI writing, SEO optimization, content marketing, digital marketing, website traffic, search engine rankings, blog post writing service, blog post editing service, blog post optimization service" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <BlogBlocks />
             <HeroBlog />

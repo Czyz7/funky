@@ -54,9 +54,12 @@ const Portfolio = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>Portfolio | Blot AI</title>
+                <meta name="description" content="View our portfolio of web development, SEO, and digital marketing projects in Las Vegas. We've helped businesses of all sizes achieve their online goals." />
+                <meta name="keywords" content="portfolio, web development, SEO, digital marketing, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <PortfolioBlock />
             <HeroPortfolio />

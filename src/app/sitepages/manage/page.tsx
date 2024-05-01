@@ -17,9 +17,12 @@ const Manage = () => {
     return (
         <Fragment>
             <Head>
-                <title>SEO Page | Accessible Web Designs</title>
-                <meta name="description" content="This is a filler page for the SEO page." />
+                <title>Website Management Services | Blot AI</title>
+                <meta name="description" content="Our website management services in Las Vegas help businesses keep their websites up-to-date, secure, and running smoothly. We offer a range of services to meet your needs, including website maintenance, security updates, and content management." />
+                <meta name="keywords" content="website management, website maintenance, website security, content management, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <WebsiteManagementBlock />
             <HeroManage />

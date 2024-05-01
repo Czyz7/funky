@@ -13,14 +13,20 @@ const BlogHome = () => {
     return (
         <Fragment>
             <Head>
-                <title>About Us | Vegas AI Solutions</title>
-                <meta name="description" content="Learn more about Accessible Web Designs and our mission to make the web accessible to everyone." />
+                <title>Blog | Blot AI</title>
+                <meta name="description" content="Las Vegas web development experts at Blot AI share the latest insights and trends in web design, development, SEO, and digital marketing. Stay ahead of the curve with our informative blog posts!" />
+                <meta name="keywords" content="Las Vegas web development, AI web development, Wix development, WordPress development, SEO, digital marketing, website design, website development, blog, web design trends, development trends, SEO trends, digital marketing trends" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
             <Navigation />
             <BlogBlocks />
             <HeroBlog />
             <main className=" text-gray-800 py-20">
+                <Block />
                 <BlogBlock />
+                <Block />
+                <Block />
             </main>
             <Footer />
         </Fragment>

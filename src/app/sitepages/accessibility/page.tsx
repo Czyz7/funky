@@ -14,9 +14,13 @@ const Accessibility = () => {
     return (
         <Fragment>
             <Head>
-                <title>Accessibility</title>
-                <meta name="description" content="I offer a range of coding services, including web development, mobile development, and data science." />
+                <title>Accessibility Services | Blot AI</title>
+                <meta name="description" content="Our accessibility services help businesses in Las Vegas make their websites and digital content accessible to people with disabilities. We provide a range of services to help you meet WCAG 2.1 AA standards, including website audits, remediation, and training." />
+                <meta name="keywords" content="accessibility, web accessibility, WCAG, digital accessibility, disabilities, web design, web development, website compliance, website remediation, website audit, Las Vegas" />
+                <meta name="location" content="Las Vegas, NV, Summerlin, Henderson, Southern Nevada, 89128" />
             </Head>
+
+
             <Navigation />
             <AccessibilityBlocks />
             <HeroAccess />
