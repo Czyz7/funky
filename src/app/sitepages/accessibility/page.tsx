@@ -6,6 +6,9 @@ import AccessibilityPrice from '@/components/ServiceForms/AccessibilityPrice';
 import HeroAccess from "@/components/Hero/HeroAccess";
 import Footer from "@/components/Footer";
 import AccessibilityBlocks from "@/components/Spacings/accessBlock";
+import AccFaq0 from "@/components/Faq/AccFaq0";
+import AccFaq1 from "@/components/Faq/AccFaq1";
+import AccFaq2 from "@/components/Faq/AccFaq2";
 
 const Accessibility = () => {
     return (
@@ -17,10 +20,21 @@ const Accessibility = () => {
             <Navigation />
             <AccessibilityBlocks />
             <HeroAccess />
+            <Block />
             <main className=" text-gray-800 py-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font text-center mb-2 text-gray-900">Pricing</h1>
+                <h1 className="text-5xl font-bold title-font text-center mb-2 text-gray-800">Pricing for Digital Accessibility Services</h1>
+                <Block />
                 <Block />
                 <AccessibilityPrice />
+                <Block />
+                <Block />
+                <div>
+                    <AccFaq0 />
+                    <AccFaq1 />
+                    <AccFaq2 />
+                </div>
+                <Block />
+                <Block />
             </main>
             <Footer />
         </Fragment>
