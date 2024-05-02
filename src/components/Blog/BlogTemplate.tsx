@@ -57,7 +57,7 @@ const BlogTemplate: React.FC<BlogTemplateProps> = ({ title, date, author }) => {
                 <div className="col-span-12 py-48 indent-6">
                     <br />
                     <p className='text-lg'>
-                        Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it‘s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.
+                        Okay, I&lsquo;m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that&lsquo;s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it&lsquo;s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.
                     </p>
                     <br />
                     <h1 className='text-xl font-bold py-6'>
@@ -67,11 +67,11 @@ const BlogTemplate: React.FC<BlogTemplateProps> = ({ title, date, author }) => {
                     <p className='text-lg'>
                         AI on Wix: The Promise and The Reality
 
-                        Let‘s not downplay the cool things Wix does with AI. They can help you throw together a design, pick colors, even get some basic content going. If you don‘t know where to start, or just need something sleek and functional, it‘s a lifesaver. For small businesses in Vegas, getting a decent website up quickly can be a game-changer.
+                        Let&lsquo;s not downplay the cool things Wix does with AI. They can help you throw together a design, pick colors, even get some basic content going. If you don‘t know where to start, or just need something sleek and functional, it&lsquo;s a lifesaver. For small businesses in Vegas, getting a decent website up quickly can be a game-changer.
                     </p>
                     <br />
                     <p className='text-lg'>
-                        Here‘s the thing: True &#x22;tell the AI what you want and POOF – website!&#x22; tech is still a few years off. Wix‘s AI is awesome for streamlining, but it might not nail that super custom job you‘ve got in your head. Think about Vegas – casinos, shows, restaurants – websites there need that extra flair to grab attention.
+                        Here&lsquo;s the thing: True &#x22;tell the AI what you want and POOF – website!&#x22; tech is still a few years off. Wix&lsquo;s AI is awesome for streamlining, but it might not nail that super custom job you&lsquo;ve got in your head. Think about Vegas – casinos, shows, restaurants – websites there need that extra flair to grab attention.
                     </p>
                     <br />
                     <h1 className='text-xl font-bold py-6'>

@@ -25,7 +25,7 @@ const AccFaq2 = () => {
                 }`}
             >
                 <div className="overflow-hidden text-xl px-24">
-                    Accessibility ensures everyone can easily use your website, regardless of disability. It's not just the right thing to do; it expands your audience and may be legally required under the Americans with Disabilities Act (ADA).
+                    Accessibility ensures everyone can easily use your website, regardless of disability. It&lsquo;s not just the right thing to do; it expands your audience and may be legally required under the Americans with Disabilities Act (ADA).
                 </div>
             </div>
         </div>

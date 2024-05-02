@@ -1,7 +1,7 @@
 # Dockerfile
 
 # Use the official Node.js image as the base for our image.
-FROM node:16-slim
+FROM node:18-alpine
 
 # Create a working directory for our application.
 WORKDIR /usr/src/app
