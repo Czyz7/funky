@@ -10,11 +10,11 @@ const HeroAbout = () => {
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
                             <h1 className="text-4xl text-white font-bold h-48 text-center">Improving the Digital Landscape with AI</h1>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We actively use the power of AI to revolutionize web development and management</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">We actively use the power of AI to revolutionize web development and management</p>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Our tools streamline website creation, content generation, site management and SEO.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Our tools streamline website creation, content generation, site management and SEO.</p>
 
-                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Experience higher quality results, faster than ever before.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Experience higher quality results, faster than ever before.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <Link href="/sitepages/offer">

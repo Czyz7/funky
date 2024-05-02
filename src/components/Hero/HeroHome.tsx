@@ -10,11 +10,11 @@ const HeroSection = () => {
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
                             <h1 className="text-4xl text-white font-bold h-48 text-center">Transform Your Web Presence. Effortlessly.</h1>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We harness the power of AI to understand your vision and deliver results that exceed expectations</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-6">We harness the power of AI to understand your vision and deliver results that exceed expectations</p>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Our AI-powered tools streamline website development, content creation, and optimization.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Our AI-powered tools streamline website development, content creation, and optimization.</p>
 
-                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Free your time for focusing on your business and lay the foundation for continuous growth and success online.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Free your time for focusing on your business and lay the foundation for continuous growth and success online.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <Link href="/sitepages/offer">

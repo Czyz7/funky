@@ -10,11 +10,11 @@ const HeroWordPress = () => {
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
                             <h1 className="text-4xl text-white font-bold h-48 text-center">Your Ideal WordPress Solution. Realized Faster</h1>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">AI streamlines the development process.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">AI streamlines the development process.</p>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Allowing us to focus on expertly crafting custom WordPress websites.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Allowing us to focus on expertly crafting custom WordPress websites.</p>
 
-                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Exceeding expectations in both quality and speed.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Exceeding expectations in both quality and speed.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <div className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden  font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">

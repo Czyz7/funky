@@ -11,11 +11,11 @@ const HeroPrice = () => {
                         <div className="w-full md:w-3/5 mb-8 md:mb-0">
                             <h1 className="text-4xl text-white font-bold h-48 text-center">Clear Pricing. Powerful Results.</h1>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">We offer straightforward pricing for our AI-driven solutions. </p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">We offer straightforward pricing for our AI-driven solutions. </p>
 
-                            <p className="text-lg text-center h-6 text-indigo-50 mb-4">Minimize guesswork and maximize the return on your investment.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Minimize guesswork and maximize the return on your investment.</p>
 
-                            <p className="text-lg text-center h-28 text-indigo-50 mb-4">Experience the difference of AI-powered services without complex pricing.</p>
+                            <p className="text-lg text-center h-21 text-indigo-50 mb-4">Experience the difference of AI-powered services without complex pricing.</p>
 
                             <div className="flex space-x-4 mt-20 justify-center">
                                 <button className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group">
