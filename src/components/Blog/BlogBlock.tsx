@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 const BlogBlock = () => {
     return (
-        <section className="text-gray-600 body-font overflow-hidden max-sm:">
-            <div className="container px-5 py-24 mx-auto grid grid-cols-1 gap-8" >
+        <section className="text-gray-600 body-font overflow-hidden">
+            <div className="container px-5 py-24 mx-auto flex flex-wrap grid-cols-2 gap-8" >
                 <div className="p-12 flex flex-col bg-gray-800 rounded-3xl items-start mx-auto ">
                     <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">Wix</span>
                     <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Wix: AI Pioneer in Website Building (Almost)</h2>
-                    <p className="leading-relaxed text-indigo-50 mb-8">Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more...</p>
+                    <p className="leading-relaxed text-indigo-50 mb-8">Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it&lsquo;s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.</p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <Link href="/blog/may0124" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">
                             <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
@@ -45,7 +45,7 @@ const BlogBlock = () => {
                 <div className="p-12 flex flex-col bg-gray-800 rounded-3xl items-start mx-auto ">
                     <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">Wix</span>
                     <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Wix: AI Pioneer in Website Building (Almost)</h2>
-                    <p className="leading-relaxed text-indigo-50 mb-8">Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more...</p>
+                    <p className="leading-relaxed text-indigo-50 mb-8">Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it&lsquo;s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.</p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <Link href="/blog/may0124" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">
                             <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
