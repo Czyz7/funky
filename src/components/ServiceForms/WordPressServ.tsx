@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const WordPressServ: React.FC = () => {
     return (
@@ -46,9 +47,13 @@ const WordPressServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/cN2dR62pW013em49AA"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Smart Start Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -115,10 +120,13 @@ const WordPressServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
-
+                        <Link
+                            href="https://buy.stripe.com/6oE6oEaWs7tv91K8wx"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Performance & Growth Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -180,10 +188,13 @@ const WordPressServ: React.FC = () => {
                                 </svg>
                             </span>Responsive Development
                         </p>
-
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/6oEcN26Gc29bb9S146"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                AI Advantage Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>

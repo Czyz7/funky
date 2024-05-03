@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const SeoServ: React.FC = () => {
     return (
@@ -46,9 +47,13 @@ const SeoServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/eVa00g0hOg01fq814f"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                SEO Health Check Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -114,10 +119,13 @@ const SeoServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
-
+                        <Link
+                            href="https://buy.stripe.com/28o28ofcI8xz6TCaEQ"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                SEO Performance Boost Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -179,10 +187,13 @@ const SeoServ: React.FC = () => {
                                 </svg>
                             </span>Content Gap Analysis
                         </p>
-
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/cN25kAe8EbJLfq84gt"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Strategic Dominance Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>

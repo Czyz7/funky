@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const ConsultServ: React.FC = () => {
     return (
@@ -38,7 +39,7 @@ const ConsultServ: React.FC = () => {
                         </p>
                         <br>
                         </br>
-                        <p className="flex items-center text-indigo-50 mb-6">
+                        <p className="flex items-center text-indigo-50 mb-28">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
                                 <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -50,9 +51,32 @@ const ConsultServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <div className="flex flex-wrap justify-center gap-4">
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/30min"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>15 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/30minconsultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>30 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/45minconsultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>45 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/60-minute-consultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>60 Mins</button>
+                            </Link>
+                        </div>
                         <br>
                         </br>
                         <br>
@@ -93,7 +117,7 @@ const ConsultServ: React.FC = () => {
                         </p>
                         <br>
                         </br>
-                        <p className="flex items-center text-indigo-50 mb-2">
+                        <p className="flex items-center text-indigo-50 mb-4">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
                                 <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -114,10 +138,32 @@ const ConsultServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
-
+                        <div className="flex flex-wrap justify-center gap-4">
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/30min"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>15 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/30minconsultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>30 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/45minconsultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>45 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/60-minute-consultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>60 Mins</button>
+                            </Link>
+                        </div>
                         <br>
                         </br>
                         <br>
@@ -148,7 +194,7 @@ const ConsultServ: React.FC = () => {
                         </p>
                         <br>
                         </br>
-                        <p className="flex items-center text-indigo-50 mb-2">
+                        <p className="flex items-center text-indigo-50 mb-4">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
                                 <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -157,7 +203,7 @@ const ConsultServ: React.FC = () => {
                         </p>
                         <br>
                         </br>
-                        <p className="flex items-center text-indigo-50 mb-2">
+                        <p className="flex items-center text-indigo-50 mb-32">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-blue-500 text-white rounded-full flex-shrink-0">
                                 <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -166,11 +212,32 @@ const ConsultServ: React.FC = () => {
                         </p>
                         <br>
                         </br>
-
-
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <div className="flex flex-wrap justify-center gap-4">
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/30min"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>15 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/30minconsultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>30 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/45minconsultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>45 Mins</button>
+                            </Link>
+                            <Link
+                                href="https://calendly.com/accessiblewebdesigns/60-minute-consultation"
+                                className="text-center text-lg font-bold text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-1/3 focus:outline-none rounded"
+                            >
+                                <button>60 Mins</button>
+                            </Link>
+                        </div>
                         <br>
                         </br>
                         <br>

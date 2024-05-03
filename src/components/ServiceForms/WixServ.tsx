@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const WixServ: React.FC = () => {
     return (
@@ -46,9 +47,13 @@ const WixServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/9AQ8wM1lS3df0ve4gj"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Smart Start Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -115,10 +120,13 @@ const WixServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
-
+                        <Link
+                            href="https://buy.stripe.com/aEU14k1lS8xz2Dm6os"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Performance & Growth Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -180,10 +188,13 @@ const WixServ: React.FC = () => {
                                 </svg>
                             </span>Responsive Development
                         </p>
-
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                            Button
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/7sIcN2d4AcNPem428d"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                AI Advantage Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const RedesignServ: React.FC = () => {
     return (
@@ -20,7 +21,7 @@ const RedesignServ: React.FC = () => {
                                 <svg className="w-6 h-6 text-gray-800 dark:text-indigo-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                 </svg>
-                            </span>Redesign themes, colors, layout, and overall design.
+                            </span>Redesign themes, colors, layout, and overall design
 
                         </p>
                         <br>
@@ -46,9 +47,13 @@ const RedesignServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded">Button
-
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/7sI28o1lS9BD3HqbIO"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Revitalize Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -74,7 +79,7 @@ const RedesignServ: React.FC = () => {
                                     <path fill-rule="evenodd" d="M15.026 21.534A9.994 9.994 0 0 1 12 22C6.477 22 2 17.523 2 12S6.477 2 12 2c2.51 0 4.802.924 6.558 2.45l-7.635 7.636L7.707 8.87a1 1 0 0 0-1.414 1.414l3.923 3.923a1 1 0 0 0 1.414 0l8.3-8.3A9.956 9.956 0 0 1 22 12a9.994 9.994 0 0 1-.466 3.026A2.49 2.49 0 0 0 20 14.5h-.5V14a2.5 2.5 0 0 0-5 0v.5H14a2.5 2.5 0 0 0 0 5h.5v.5c0 .578.196 1.11.526 1.534Z" clip-rule="evenodd" />
                                 </svg>
 
-                            </span>Everything in Tiers 1 & 2
+                            </span>Everything in Tier 1
                         </p>
                         <br>
                         </br>
@@ -114,9 +119,13 @@ const RedesignServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded">Button
-
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/bIY00gggM7tva5OcMT"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Transform Package
+                            </button>
+                        </Link>
 
                         <br>
                         </br>

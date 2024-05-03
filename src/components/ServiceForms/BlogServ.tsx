@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const BlogServ: React.FC = () => {
     return (
@@ -45,9 +46,13 @@ const BlogServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded">Button
-
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/7sI6oEfcIcNP1zidQY"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Blog Starter Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
@@ -112,9 +117,13 @@ const BlogServ: React.FC = () => {
                         </br>
                         <br>
                         </br>
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded">Button
-
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/7sIaEUfcIcNPem4dQZ"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Content Boost Package
+                            </button>
+                        </Link>
 
                         <br>
                         </br>
@@ -178,10 +187,13 @@ const BlogServ: React.FC = () => {
                                 </svg>
                             </span>On-Page Optimization for all Posts
                         </p>
-
-                        <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded">Button
-
-                        </button>
+                        <Link
+                            href="https://buy.stripe.com/dR65kAd4A9BD6TC4gq"
+                            className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                            <button >
+                                Content Sprint Package
+                            </button>
+                        </Link>
                         <br>
                         </br>
                         <br>
