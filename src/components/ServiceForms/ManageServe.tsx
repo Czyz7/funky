@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const ManageServ: React.FC = () => {
     return (
@@ -9,7 +10,7 @@ const ManageServ: React.FC = () => {
                         <div className="h-full p-6 rounded-lg border-2 bg-gray-800 border-gray-300 flex flex-col relative overflow-hidden">
                             <br>
                             </br>
-                            <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">FOUNDATIONAL MANAGEMENT</h2>
+                            <h2 className="text-base tracking-widest title-font mb-1 font-medium text-indigo-50">FOUNDATIONAL MANAGEMENT</h2>
                             <br>
                             </br>
                             <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
@@ -53,9 +54,13 @@ const ManageServ: React.FC = () => {
                             </br>
                             <br>
                             </br>
-                            <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">Button
-
-                            </button>
+                            <Link
+                                href="https://buy.stripe.com/cN29AQ5C829bguc4gw"
+                                className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                                <button >
+                                    Foundational Management
+                                </button>
+                            </Link>
                             <br>
                             </br>
                             <br>
@@ -67,7 +72,7 @@ const ManageServ: React.FC = () => {
                             <br>
                             </br>
                             <span className="bg-gradient-to-bl from-sky-500 to-blue-600 text-indigo-50 px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-                            <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">OPTIMIZED PERFORMANCE</h2>
+                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium text-indigo-50">OPTIMIZED PERFORMANCE</h2>
                             <br>
                             </br>
                             <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
@@ -125,10 +130,13 @@ const ManageServ: React.FC = () => {
                             </br>
                             <br>
                             </br>
-                            <button className="flex items-center mt-auto text-white bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none ">Button
-
-                            </button>
-
+                            <Link
+                                href="https://buy.stripe.com/6oE6oE0hO8xz7XG4gx"
+                                className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                                <button >
+                                    Optimized Performance
+                                </button>
+                            </Link>
                             <br>
                             </br>
                             <br>
@@ -139,7 +147,7 @@ const ManageServ: React.FC = () => {
                         <div className="h-full p-6 rounded-lg border-2 border-gray-300 bg-gray-800 flex flex-col relative overflow-hidden">
                             <br>
                             </br>
-                            <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">DATA-DRIVEN ACCELERATOR</h2>
+                            <h2 className="text-lg tracking-widest title-font mb-1 font-medium text-indigo-50">DATA-DRIVEN ACCELERATOR</h2>
                             <br>
                             </br>
                             <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">
@@ -195,10 +203,13 @@ const ManageServ: React.FC = () => {
                                     </svg>
                                 </span>Data Analytics & Insights Reports
                             </p>
-
-                            <button className="flex items-center mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none  rounded">
-                                Button
-                            </button>
+                            <Link
+                                href="https://buy.stripe.com/cN26oE4y40132Dm7sK"
+                                className=' text-center font-bold mt-auto text-indigo-50 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 py-2 px-4 w-full focus:outline-none rounded'>
+                                <button >
+                                    Data-Driven Accelerator
+                                </button>
+                            </Link>
                             <br>
                             </br>
                             <br>

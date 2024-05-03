@@ -2,12 +2,7 @@
 
 
 import React, { useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import { Bounce, ToastContainer, toast } from 'react-toastify';
-
-import 'react-toastify/dist/ReactToastify.css'; // Include the CSS
-
-
+import { useForm } from '@formspree/react';
 
 interface ContactFormData {
     firstName: string;
@@ -31,6 +26,19 @@ const ContactForm: React.FC = () => {
     });
 
 
+
+    const handleReset = () => {
+        setFormData({
+            firstName: '',
+            lastName: '',
+            email: '',
+            phoneNumber: '',
+            service: '', // Set a default service option
+            message: '',
+        });
+    };
+
+
     const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         setFormData({
             ...formData,
@@ -38,30 +46,14 @@ const ContactForm: React.FC = () => {
         });
     };
 
-    // ... your existing code
-
     if (state.succeeded) {
-        toast.success(' 😎 Your message has been sent!', {
-            position: "top-center",
-            autoClose: 4500, // adjust close time as needed
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "dark",
-            transition: Bounce,
-        });
+        return <p className="text-5xl font-bold text-sky-600 text-center m-12">Thanks for submitting your message!</p>;
+
     }
-
-    // ... rest of your code
-
 
     return (
         <div>
-            <ToastContainer /> {/* Place the ToastContainer here */}
-
-            <form className="bg-gray-100 p-6 rounded-lg shadow-md" >
+            <form className="bg-gray-100 p-6 rounded-lg shadow-md" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-2 gap-4 mb-4">
                     <div>
                         <label htmlFor="firstName" className="block text-gray-700 mb-2">
@@ -141,13 +133,14 @@ const ContactForm: React.FC = () => {
                             required
                         >
                             <option value="">Select a service</option>
-                            <option value="web-design">Web Design</option>
-                            <option value="build-a-website">Build a Website</option>
-                            <option value="wix">Wix</option>
-                            <option value="wordpress">Wordpress</option>
-                            <option value="site-management">Site Management</option>
-                            <option value="site-redesign">Site Redesign</option>
-                            <option value="blog-posts">Blog Posts</option>
+                            <option value="wordpress">Wordpress Website Development</option>
+                            <option value="wordpress">Wix Website Development</option>
+                            <option value="site-management">Website Management</option>
+                            <option value="site-redesign">Website Redesign</option>
+                            <option value="blog-posts">Blog Post Generation</option>
+                            <option value="site-management">SEO</option>
+                            <option value="site-redesign">Digital Accessibility</option>
+                            <option value="blog-posts">Blog Post Generation</option>
                             {/* ... Add more options */}
                         </select>
                     </div>
@@ -173,7 +166,7 @@ const ContactForm: React.FC = () => {
                     <button type="submit" className="bg-blue-500 text-black rounded-md px-4 hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 hover:bg-blue-600 ml-4 ...">
                         Submit
                     </button>
-                    <button type="reset" className="bg-red-500 text-black hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 rounded-md px-4 hover:bg-red-700 ml-4 ...">
+                    <button type="reset" onClick={handleReset} className="bg-red-500 text-black hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none hover:scale-110 rounded-md px-4 hover:bg-red-700 ml-4 ...">
                         Cancel
                     </button>
 

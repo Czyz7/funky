@@ -8,7 +8,7 @@ const CodingServ: React.FC = () => {
                     <div className="h-full p-6 rounded-lg border-2 bg-gray-800 border-gray-300 flex flex-col relative overflow-hidden">
                         <br>
                         </br>
-                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">STARTER SITE</h2>
+                        <h2 className="text-lg tracking-widest title-font mb-1 font-medium text-indigo-50">STARTER SITE</h2>
                         <br>
                         </br>
                         <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">$299</h1>
@@ -54,7 +54,7 @@ const CodingServ: React.FC = () => {
                         <br>
                         </br>
                         <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">GROWING BOOST</h2>
+                        <h2 className="text-lg tracking-widest title-font mb-1 font-medium text-indigo-50">GROWING BOOST</h2>
                         <br>
                         </br>
                         <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200 ">
@@ -113,7 +113,7 @@ const CodingServ: React.FC = () => {
                     <div className="h-full p-6 rounded-lg border-2 border-gray-300 bg-gray-800 flex flex-col relative overflow-hidden">
                         <br>
                         </br>
-                        <h2 className="text-sm tracking-widest title-font mb-1 font-medium text-indigo-50">CONTENT SPRINT</h2>
+                        <h2 className="text-lg tracking-widest title-font mb-1 font-medium text-indigo-50">CONTENT SPRINT</h2>
                         <br>
                         </br>
                         <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-200 ">

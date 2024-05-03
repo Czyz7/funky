@@ -17,9 +17,11 @@ const AboutCta = () => {
                 <div className="flex flex-wrap py-6 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
                     <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
                         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-50 text-sky-600 mb-5 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            <svg className="w-12 h-12 text-gray-800 dark:text-sky-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M4 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4Zm16 7H4v7h16v-7ZM5 8a1 1 0 0 1 1-1h.01a1 1 0 0 1 0 2H6a1 1 0 0 1-1-1Zm4-1a1 1 0 0 0 0 2h.01a1 1 0 0 0 0-2H9Zm2 1a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
                             </svg>
+
+
                         </div>
                         <div className="flex-grow py-2">
                             <h2 className="text-indigo-50 text-lg title-font font-medium mb-3">WordPress Development</h2>
@@ -38,11 +40,10 @@ const AboutCta = () => {
                     </div>
                     <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
                         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-50 text-sky-600 mb-5 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
-                                <circle cx="6" cy="6" r="3"></circle>
-                                <circle cx="6" cy="18" r="3"></circle>
-                                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                            <svg className="w-12 h-12 text-gray-800 dark:text-sky-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4.5V19a1 1 0 0 0 1 1h15M7 14l4-4 4 4 5-5m0 0h-3.207M20 9v3.207" />
                             </svg>
+
                         </div>
                         <div className="flex-grow py-1">
                             <h2 className="text-indigo-50 text-lg title-font font-medium mb-3">SEO Services</h2>
@@ -61,10 +62,10 @@ const AboutCta = () => {
                     </div>
                     <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
                         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-50 text-sky-600 mb-5 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
-                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                                <circle cx="12" cy="7" r="4"></circle>
+                            <svg className="w-12 h-12 text-indigo-50 dark:text-sky-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11.5c.07 0 .14-.007.207-.021.095.014.193.021.293.021h2a2 2 0 0 0 2-2V7a1 1 0 0 0-1-1h-1a1 1 0 1 0 0 2v11h-2V5a2 2 0 0 0-2-2H5Zm7 4a1 1 0 0 1 1-1h.5a1 1 0 1 1 0 2H13a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h.5a1 1 0 1 1 0 2H13a1 1 0 0 1-1-1Zm-6 4a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1Zm0 3a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1ZM7 6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7Zm1 3V8h1v1H8Z" clip-rule="evenodd" />
                             </svg>
+
                         </div>
                         <div className="flex-grow">
                             <h2 className="text-indigo-50 text-lg title-font font-medium mb-3">Blog Post Generation</h2>

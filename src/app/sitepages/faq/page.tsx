@@ -31,6 +31,7 @@ import AccFaq2 from '@/components/Faq/AccFaq2';
 import ConsultFaq0 from '@/components/Faq/ConsultFaq0';
 import ConsultFaq1 from '@/components/Faq/ConsultFaq1';
 import ConsultFaq2 from '@/components/Faq/ConsultFaq2';
+import ContactFaq0 from '@/components/Faq/ContactFaq0';
 
 const Faq = () => {
     return (
@@ -45,6 +46,7 @@ const Faq = () => {
             <FaqBlock />
             <main className=" text-gray-800 py-20">
                 <div className="p-10 rounded-lg">
+                    <ContactFaq0 />
                     <WordPressFaq />
                     <WordPressFaq0 />
                     <WordPressFaq1 />

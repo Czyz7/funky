@@ -29,7 +29,7 @@ const SEO = () => {
 
             <main className=" text-gray-800 py-20">
                 <Block />
-                <h1 className="text-5xl font-bold title-font text-center mb-2 text-gray-800">Pricing for Search Engine Optimization Services</h1>3
+                <h1 className="text-5xl font-bold title-font text-center mb-2 text-gray-800">Pricing for Search Engine Optimization Services</h1>
                 <Block />
                 <Block />
                 <SeoServ />

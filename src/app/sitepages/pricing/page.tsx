@@ -5,6 +5,7 @@ import React, { Fragment } from 'react';
 import PricingGallery from '@/components/PricingGallery';
 import Footer from '@/components/Footer';
 import PricingBlock from '@/components/Spacings/PricingBlock';
+import Block from '@/components/Spacings/Block';
 
 const Pricing = () => {
     return (
@@ -19,9 +20,12 @@ const Pricing = () => {
             <Navigation />
             <PricingBlock />
             <HeroPrice />
-
             <main className=" text-gray-800 py-20">
+                <Block />
+                <Block />
                 <PricingGallery />
+                <Block />
+                <Block />
             </main>
             <Footer />
         </Fragment>

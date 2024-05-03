@@ -13,7 +13,12 @@ const AiConsultServe: React.FC = () => {
                         <br>
                         </br>
                         <span className="bg-gradient-to-bl from-sky-500 to-blue-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-                        <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">$300</h1>
+                        <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-200 leading-none">$300
+                            <span className="text-lg ml-1 font-normal text-gray-300">
+                                /hr
+                            </span>
+                        </h1>
+
                         <br>
                         </br>
                         <p className="flex items-center text-indigo-50 mb-2">
