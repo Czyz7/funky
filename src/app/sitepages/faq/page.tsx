@@ -32,6 +32,7 @@ import ConsultFaq0 from '@/components/Faq/ConsultFaq0';
 import ConsultFaq1 from '@/components/Faq/ConsultFaq1';
 import ConsultFaq2 from '@/components/Faq/ConsultFaq2';
 import ContactFaq0 from '@/components/Faq/ContactFaq0';
+import RedesignFaq2 from '@/components/Faq/RedesignFaq2';
 
 const Faq = () => {
     return (
@@ -60,6 +61,7 @@ const Faq = () => {
                     <ManageFaq2 />
                     <RedesignFaq0 />
                     <RedesignFaq1 />
+                    <RedesignFaq2 />
                     <BlogPostFaq0 />
                     <BlogPostFaq1 />
                     <BlogPostFaq2 />

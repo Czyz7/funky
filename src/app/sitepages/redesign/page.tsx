@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import WebsiteRedesignBlock from '@/components/Spacings/webRedBlock';
 import RedesignFaq0 from '@/components/Faq/RedesignFaq0';
 import RedesignFaq1 from '@/components/Faq/RedesignFaq1';
+import RedesignFaq2 from '@/components/Faq/RedesignFaq2';
 
 
 const Redesign = () => {
@@ -35,6 +36,7 @@ const Redesign = () => {
                     <Block />
                     <RedesignFaq0 />
                     <RedesignFaq1 />
+                    <RedesignFaq2 />
                 </div>
                 <Block />
                 <Block />
