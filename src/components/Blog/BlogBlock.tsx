@@ -9,7 +9,9 @@ const BlogBlock = () => {
                 <div className="p-12 flex flex-col bg-gray-800 rounded-3xl items-start mx-auto ">
                     <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">Wix</span>
                     <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Wix: AI Pioneer in Website Building (Almost)</h2>
-                    <p className="leading-relaxed text-indigo-50 mb-8">Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it&lsquo;s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.</p>
+                    <p className="leading-relaxed text-indigo-50 mb-8">
+                        Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it&lsquo;s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.
+                    </p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <Link href="/blog/may0124" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">
                             <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
@@ -43,11 +45,12 @@ const BlogBlock = () => {
                     </Link>
                 </div>
                 <div className="p-12 flex flex-col bg-gray-800 rounded-3xl items-start mx-auto ">
-                    <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">Wix</span>
-                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Wix: AI Pioneer in Website Building (Almost)</h2>
-                    <p className="leading-relaxed text-indigo-50 mb-8">Okay, I‘m a fan of Wix. They‘ve made serious moves to bring AI into the website creation game, and for a lot of folks, that‘s amazing. But let‘s be real – even with those fancy AI tools, sometimes you want a website with a more... &#x22;you&#x22; feel. Wix gets that, and it&lsquo;s why they‘re killing it, especially in a place like Las Vegas, where standing out in Google is no joke.</p>
+                    <span className="inline-block py-1 px-2 rounded bg-gradient-to-bl from-sky-500 to-blue-600 border-0 text-indigo-50 text-xs font-medium tracking-widest">AI Tips</span>
+                    <h2 className="sm:text-3xl text-2xl title-font font-medium text-indigo-50 mt-4 mb-4">Stop the Busywork, Boost Your Business: How AI Can Be Your Secret Weapon</h2>
+                    <p className="leading-relaxed text-indigo-50 mb-8">
+                        Overwhelmed again by the daily grind? Does your never-ending to-do list mysteriously keep getting longer? Well, fret no more! Artificial intelligence (AI) isn&lsquo;t some futuristic fantasy anymore; it&lsquo;s here to become your silent business partner, helping you work smarter, not harder.</p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
-                        <Link href="/blog/may0124" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">
+                        <Link href="/blog/may1024" className="relative items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group">
                             <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
                             <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-gradient-to-bl from-sky-500 to-blue-600 border-0 opacity-100 group-hover:-translate-x-8"></span>
                             <span className="relative w-full text-left text-white  transition-colors duration-200 ease-in-out group-hover:text-indigo-50 ">

@@ -2,13 +2,13 @@ import React, { Fragment } from 'react'
 import Navigation from '@/components/Navigation';
 import Block from '@/components/Spacings/Block';
 import Head from 'next/head';
-import BlogTemplate from '@/components/Blog/BlogTemplate';
+import BlogTemplate0 from '@/components/Blog/BlogTemplate0';
 import Footer from '@/components/Footer';
 
-const may0124 = () => {
+const may1024 = () => {
     // Updated blog data
     const blogPost = {
-        title: 'Wix: AI Pioneer in Website Building (Almost)',
+        title: 'Stop the Busywork, Boost Your Business: How AI Can Be Your Secret Weapon',
         date: 'May 10, 2024',
 
 
@@ -23,7 +23,7 @@ const may0124 = () => {
     return (
         <Fragment>
             <Head>
-                <title>Blog | Wix: AI Pioneer in Website Building (Almost)</title>
+                <title>Stop the Busywork, Boost Your Business: How AI Can Be Your Secret Weapon</title>
                 <meta name="description" content="Learn more about The Benefits of Integrating AI into Your Workload." />
             </Head>
             <Navigation />
@@ -32,7 +32,7 @@ const may0124 = () => {
                 <Block />
                 <div className="container mx-auto bg-gray-800 rounded-xl p-6 px-6  "> {/* Container for blog content */}
                     <Block />
-                    <BlogTemplate
+                    <BlogTemplate0
                         title={blogPost.title}
                         date={blogPost.date}
                         author={blogPost.author}
@@ -46,4 +46,4 @@ const may0124 = () => {
     );
 };
 
-export default may0124;
+export default may1024;
